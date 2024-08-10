@@ -17,8 +17,8 @@ TODO
 ### Sample Output
 TODO
 
-### Sample Explaination
+### Sample Case Explanation
 TODO
 
 ### Notes
-TODO
+(Optional)
