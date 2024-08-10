@@ -25,3 +25,5 @@ TODO
 
 ### Notes
 A crewmate can be confirmed innocent via Logic if there is a chain of numImpostors+1 people that say they’re innocent. Not sure how evident this is
+
+**Author: Natalie**
