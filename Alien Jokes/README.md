@@ -24,3 +24,5 @@ TODO
 
 ### Notes
 this problem is not very finished. I had a thought with it, but then the thought evaporated (it was a bad thought - I was thinking about doing base conversion with ascii values, but then I remembered Integer.parseInt() can do that for you)
+
+**Author: Natalie**
