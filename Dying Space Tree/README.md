@@ -33,3 +33,5 @@ if target leaf < current node, return i
 else, decrement i and go right on the tree
 
 this may be too simple? but hm.
+
+**Author: Natalie**
