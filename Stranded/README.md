@@ -25,4 +25,6 @@ TODO
 TODO
 
 ### Notes
-change the name of Edgar Allen Poe 
+change the name of Edgar Allen Poe
+
+**Author: Natalie**
