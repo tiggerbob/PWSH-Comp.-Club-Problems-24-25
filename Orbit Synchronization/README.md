@@ -10,9 +10,9 @@ The second line contains $n$ space-separated integers $p_1,p_2,...,p_n$, where $
 
 ### Constraints
 
-$2 /leq n /leq 10^{5}$
+$2 \leq n \leq 10^{5}$
 
-$1 /leq p_i /leq 10^{9}$
+$1 \leq p_i \leq 10^{9}$
 
 ### Output Format
 
