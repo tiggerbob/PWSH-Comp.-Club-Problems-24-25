@@ -5,10 +5,10 @@ Description of problem
 ### Input Format
 TODO
 
-### Output Format
+### Constraints
 TODO
 
-### Constraints
+### Output Format
 TODO
 
 ### Sample Input
