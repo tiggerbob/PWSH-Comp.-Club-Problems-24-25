@@ -26,10 +26,11 @@ Tomtors dust lasagne will never do me dirty like that, will you dust lasagne? No
 and that was when he rudely interrupted me and said, "Man, just put my damn Nanu Fries in the bag". SOOOO rude right?Like why would he come to the window if he didn't want to talk. 
 Anyway, welcome to the Nanu Corporation. Since you'll be working in the drive-through...
 
+### space 
 
+### separation space
 
-
-
+### space
 
 
 Your job is to create a program that tallies the cost of items ordered at the drive-through and then create a report of total revenue. 
