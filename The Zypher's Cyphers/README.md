@@ -16,6 +16,7 @@ A valid message:
 
 Contains at least one 1 and one 0.
 Does not start or end with consecutive 0's or 1's.
+
 Input Format
 
 The first line contains an integer n (1 ≤ n ≤ 100), the number of messages to decode.
@@ -46,3 +47,5 @@ Sample Input
 Sample output
 
 3 2
+
+Author: Ramy Hijazi
