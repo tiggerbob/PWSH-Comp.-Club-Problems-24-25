@@ -14,7 +14,7 @@ Mark will only be happy if the total satiety level of the potatoes he ate is gre
 
 The first line contains $t$, the total number of test cases. 
 
-For each of the $t$ test cases, the first line contains $N$, the number of potatoes in the harvest. The next line contains $N$ integers $s_1, s_2, \cdots, s_N$ denoting each of the potatoes’ satiety levels. 
+For each of the $t$ test cases, the first line contains $N$, the number of potatoes in the harvest. The next line contains $N$ integers $s_1, s_2, \ldots~, s_N$ denoting each of the potatoes’ satiety levels. 
 
 ### Constraints
 
