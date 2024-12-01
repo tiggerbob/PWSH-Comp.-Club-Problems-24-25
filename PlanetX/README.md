@@ -1,7 +1,7 @@
 Problem Description
 
 It is the year 2056. Humans have finally landed on PlanetX. Upon landing on PlanetX, humanity discovered two new species: gleebs and glorbs. A high-tech scanner is used to detect
-all lifeforms, (i.e. all gleebs and glorbs), on PlanetX and read them into one string with no spaces. Your task is to take this string and tally up the amount of gleebs and glorbs, respectively, that were detected.
+all lifeforms, (i.e. all gleebs and glorbs), on a given region of PlanetX and read them into a string with no spaces. Your task is to take all the strings that were generated and tally up the amount of gleebs and glorbs, respectively, that were detected.
 
 Input Format
 
