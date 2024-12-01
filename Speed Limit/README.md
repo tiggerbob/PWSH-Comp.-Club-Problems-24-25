@@ -1,32 +1,24 @@
 Problem Description
 
-In the year 2150, humanity has developed an advanced spaceship capable of traveling across the galaxy. The spaceship's speed is measured in terms of light years per second (LY/s), and the ship's onboard computer provides readings of the current speed over time as a series of numbers.
+In the year 2200, humanity has developed a fleet of advanced spaceships capable of traveling across the galaxy. Each spaceship’s speed is measured in light years per second (LY/s), and the onboard system continuously monitors the spaceship’s speed.
 
-The spaceship's control system displays the speed readings as a string of space-separated numbers. The captain of the spaceship needs to monitor the ship's speed and ensure it stays within the safe range.
+The spaceship's control system generates a series of speed readings, and you must help the spaceship's captain determine if the spaceship is traveling at a safe or unsafe speed.
 
-A safe speed is a speed reading that falls within the range of 10 to 100 light years per second, inclusive. Any speed reading outside this range is considered unsafe.
-
-You are tasked with helping the spaceship’s captain by determining how many speed readings are safe and how many are unsafe, based on a series of measurements.
-
+A safe speed is a speed between 10 and 100 inclusive.
+An unsafe speed is any speed that is below 10 or above 100.
 Your task:
-For each test case, determine:
-
-The number of safe speed readings.
-The number of unsafe speed readings.
+For each test case, check each speed reading to determine if it is safe or unsafe.
 
 Input Format
 
-The first line of input consists of an integer n (1 ≤ n ≤ 100), representing the number of test cases (i.e., different speed readings).
-Each of the following n lines contains a string s (1 ≤ |s| ≤ 100), where s contains space-separated integers representing the spaceship's speed readings in light years per second.
-
-
+The first line contains an integer n (1 ≤ n ≤ 100), representing the number of test cases (i.e., different speed readings).
+Each of the following n lines contains a string s (1 ≤ |s| ≤ 100), containing space-separated integers. Each integer represents a spaceship speed rating in light years per second.
 Output Format
 
 For each test case, output:
 
-The total number of safe speed readings (those between 10 and 100 inclusive).
-The total number of unsafe speed readings (those outside the range of 10 to 100).
-Each result should be printed on a new line, with the counts of safe and unsafe readings separated by spaces.
+For each speed, print "safe" if it falls between 10 and 100 (inclusive), or "unsafe" if it is outside this range.
+Each result should be printed on a new line.
 
 Constraints
 
@@ -35,18 +27,13 @@ Each test case contains a sequence of space-separated integers with a length bet
 
 Sample Input
 
-4
+3
 15 50 105 90
 100 5 200 10
 99 150 50 101
-10 11 9 90
 
-Sample Output
+Sample output 
 
-3 1
-2 2
-2 2
-3 1
-
-
-Author: Ramy Hijazi
+safe safe unsafe safe
+safe unsafe unsafe safe
+safe unsafe safe unsafe
