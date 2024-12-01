@@ -13,10 +13,13 @@ For each test case, determine:
 
 The number of safe speed readings.
 The number of unsafe speed readings.
+
 Input Format
 
 The first line of input consists of an integer n (1 ≤ n ≤ 100), representing the number of test cases (i.e., different speed readings).
 Each of the following n lines contains a string s (1 ≤ |s| ≤ 100), where s contains space-separated integers representing the spaceship's speed readings in light years per second.
+
+
 Output Format
 
 For each test case, output:
