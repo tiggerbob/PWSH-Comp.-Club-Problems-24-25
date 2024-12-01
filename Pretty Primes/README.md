@@ -1,6 +1,6 @@
 # Pretty Primes
 
-You and your best friend Caz have gotten into a heated argument over what makes a planet beautiful. You are sure that the greater the sum of a [planet’s quantities that are prime]//todo word this better, the more beautiful it is, unless the sum is not a prime number at all, in which case it loses half (rounded up) of its beauty. Quantities include the number of a planet’s moons, rings, local suns, and neighboring planets. To change their mind, you’ve resolved to find the most beautiful planet to show them. You’ve already compiled a list of some planets, but now you need to pick the prettiest one of the bunch.
+You and your best friend Caz have gotten into a heated argument over what makes a planet beautiful. You are sure that the greater the sum of a [planet’s quantities that are prime]//todo word this better//, the more beautiful it is, unless the sum is not a prime number at all, in which case it loses half (rounded up) of its beauty. Quantities include the number of a planet’s moons, rings, local suns, and neighboring planets. To change their mind, you’ve resolved to find the most beautiful planet to show them. You’ve already compiled a list of some planets, but now you need to pick the prettiest one of the bunch.
 
 ### Input Format
 The first line of input consists of an integer n denoting the number of test cases to follow.
@@ -9,7 +9,11 @@ For each of the n test cases,
 - p lines containing integers m, r, s, and n (moons, rings, suns, neighboring planets)
 
 ### Constraints
-TODO
+100 < P < 100
+10^6 < M < 10^5
+10^6 < R < 10^5
+10^6 < S < 10^5
+10^6 < N < 10^5
 
 ### Output Format
 Return the beauty of the most beautiful planet.
@@ -32,6 +36,6 @@ In the first test case, the sum of all the prime numbers in the first planet's q
 In the second test case, the sum of all prime numbers in the first planet's quantities is 2+2+2=6, and the sum of the second planet's is 1+1+1+1=4. The first planet's sum is not prime, so its beauty score is halved: 6/2=3. The beauty of the second planet is larger, so the second planet is more beautiful andd 4 is printed.
 
 ### Notes
-(Optional)
+constraints may or may not be reasonable.
 
 **Author: Natalie**
