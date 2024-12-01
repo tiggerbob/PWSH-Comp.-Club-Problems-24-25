@@ -1,4 +1,4 @@
-# Hazard Cleanup
+# Radioactive Cleanup
 
 A scientist from the Plano West Computer Club's Research Expeditionary Team (PWSH-RET) accidentally dropped a vial of highly radioactive Glorpanium, and now the fumes are spreading wildly throughout base camp! Base camp is a series of series of uniform connected rooms, all on the same level, that fits within an $N \times M$ grid.
 
