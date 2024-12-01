@@ -51,3 +51,5 @@ Mindy can select $[0,1]$ for a satiety level of $1997$ compared to Mark’s $199
 For the second case, there is no subset where Mindy’s satiety levels are higher than Mark’s. 
 
 In the third case, Mark’s satiety level is $2$, but Mindy can select $[0]$ or $[2]$ to get the same satiety level. 
+
+**Author: Annie Li**
