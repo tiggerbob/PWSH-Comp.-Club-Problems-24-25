@@ -7,9 +7,9 @@ The second line is $n$ robbery times
 The following $n$ lines contains two integer: %k% people and %t% time robbed
 
 ## Contraints
-0 \leq $b$ \leq 1e7
-0 \leq $n$ \leq 1e15
-0 \leq $k$ \leq 1e8
+0 $\leq$ $b$ $\leq$ 1e7 <br>
+0 $\leq$ $n$ $\leq$ 1e15 <br>
+0 $\leq$ $k$ $\leq$ 1e8 <br>
 $t$ will not be written in military time
 
 ## Output
