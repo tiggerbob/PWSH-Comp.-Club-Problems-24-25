@@ -4,7 +4,7 @@ Scientists are trying to find out which aliens are belonging to which families. 
 ## Input Format
 First Line will be DNA of offpsring
 Second Line will be a single integer $n$
-The following %n% lines consists of original parent DNAs
+The following $n$ lines consists of original parent DNAs
 
 ## Contraints
 1 $\leq$ $k$ $\leq$ 300 <br>
