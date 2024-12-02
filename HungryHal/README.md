@@ -12,7 +12,7 @@ Given a string of random letters, return the max number of meals Hal can make. E
  
 ### Constraints
 
-The string will be of max length $10^{2}, and all vowels will be able to be used.
+The string will be of max length $10^{2}$, and all vowels will be used.
 
 ### Output Format
 
