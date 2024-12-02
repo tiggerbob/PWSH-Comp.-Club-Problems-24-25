@@ -66,4 +66,6 @@ $OYP = (100 - 10) + 5 = \underline{95}$
 ### Notes
 The problem becomes relatively easy once we determine the values encoded by each numeral. Furthermore, we have 4 unknown values (the numerals) and 4 equations (the dates/centuries), and we are guaranteed a solvable system of equations.
 
+FURTHER HINT: Linear algebra (vectors and matrices) is your friend for this problem!
+
 **Author: Ryan**
