@@ -17,14 +17,14 @@ an integer representing the amount of Ghoa as %x%
 an integer representing the equivalent amount of Euna.
 
 ## Sample Input #0
-'''
+```
 1
-'''
+```
 
 ## Sample Output #0
-'''
+```
 271227334832759
-'''
+```
 
 ## Sample Input #1
 ```
