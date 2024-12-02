@@ -35,6 +35,6 @@ Output an integer that represent the least number of trips to deliver all the pa
 
 ### Sample Case Explanation:
 
-One trip can be made with 100 pound package. A second trip can be made with the 76 and 40 pound packages. A third trip can be made with the remaining 3 packages (49, 34, 29).
+One trip can be made with the 100 pound package. A second trip can be made with the 76 and 40 pound packages. A third trip can be made with the remaining 3 packages (49, 34, 29).
 
 **Author: Rithvik P**
