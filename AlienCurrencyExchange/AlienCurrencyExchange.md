@@ -8,7 +8,7 @@ Alien Hesper is trying to exchange $x$ amount of Ghede's currency of Ghoa for Ze
 These rules are all good, until he realizes there inflation of the Euna. This inflation means the number that has been calculated are base 8 rather than base 10, but he can only read in base 10! Hesper needs your help to understand how much currency he really has. If his currency is unable to adjust to inflation, he requests you print out "Exchange Failed".
 
 ## Input Format
-an integer representing the amount of Ghoa as %x%
+an integer representing the amount of Ghoa as $x$
 
 ## Contraints
 -1e5 $\leq$ $x$ $\leq$ 9.99e15
