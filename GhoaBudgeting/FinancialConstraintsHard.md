@@ -7,8 +7,8 @@ Calytrix family's mom is called Odin Calytrix. It is known that she started her 
 The first line contains two integer input in their respective order: $e$ and $k$
 The second line contains two integer input in their respective order: $m$ and $u$
 The thrid line contains two integer input in their respective order : $c$ and $b$
-The fourth line contains one integer: %n%
-The following %n% lines contains %n% doubles, representing all the individual balances the children demand
+The fourth line contains one integer: $n$
+The following $n$ lines contains $n$ doubles, representing all the individual balances the children demand
 
 ## Contraints
 0 $\leq$ $e$ $\leq$ 2000 <br>
