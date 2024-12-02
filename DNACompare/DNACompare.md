@@ -15,17 +15,17 @@ First ling will the DNA of the offsprings mom
 Second line will be the DNA of the offsprings dad
 
 ## Sample Input #1
-'''
+```
 AGCT
 4
 AGN
 ANG
 CCT
 CTC
-'''
+```
 
 ## Sample Input #2
-'''
+```
 AGN
 CCT
-'''
+```
