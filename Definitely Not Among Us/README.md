@@ -13,10 +13,13 @@ For each of the n test cases,
 Output the names of the impostors on separate lines.
 
 ### Constraints
+```
 5 <= c <= 7500 
 1 <= i <= c
+```
 
 ### Sample Input
+```
 1
 2
 5
@@ -27,10 +30,13 @@ Output the names of the impostors on separate lines.
 3 5
 4 3
 5 4
+```
 
 ### Sample Output
+```
 1
 2
+```
 
 ### Sample Explaination
 2/5 of all crewmates are impostors. 5 is innocent because 1, 2, and 3 vouched for them, and it is not possible that they are all impostors. 4 is innocent because 5 vouched for them. 3 is innocent because 4 vouched for them. Thus, 1 and 2 have to be the impostors.
