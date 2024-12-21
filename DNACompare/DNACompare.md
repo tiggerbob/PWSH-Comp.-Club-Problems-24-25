@@ -1,5 +1,5 @@
 # **Finding the closest Alien**
-Scientists are trying to find out which aliens are belonging to which families. It is known each family consists of two aliens and one offspring. To do this Scientists have decided to talk the offspring DNA of $k$ length, and compare it to a set of $n$ alien DNAs to find the mom and dad. The mom has majority A and G bases, and The dad has majority C and T bases. They want to develope a algorithm that will find the match for them. The Scientists decide the best way to determine the offsprings parents is to find the longest matching DNA sequence for both mom and dad.
+Scientists are trying to find out which aliens are belonging to which families. It is known each family consists of two aliens and one offspring. To do this Scientists have decided to talk the offspring DNA of $k$ length, and compare it to a set of $n$ alien DNAs to find the mom and dad. The mom has majority A and G bases, and The dad has majority C and T bases. They want to develope a algorithm that will find the match for them. Unfortunately, the Scientists accidently reversed the parent DNA. The Scientists decide the best way to determine the offsprings parents is to find the longest matching DNA sequence for both mom and dad.
 
 ## Input Format
 First Line will be DNA of offpsring <br>
