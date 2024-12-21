@@ -1,6 +1,6 @@
 # Dying Space Tree
 
-They are growing a tree in space—a perfect binary search tree, with each node containing a unique number such that each node’s left side is smaller than itself while its right node is larger than itself. Unfortunately, because it is in space and lacks carbon dioxide, it is slowly dying. Each day, the node on the tree holding the largest value dies and falls off, taking with it all nodes it is currently supporting. You, having a favorite node on the tree, want to know how long it will take for your favorite node to die.
+They are growing a tree in space: a perfect binary search tree, with each node containing a unique number such that each node’s left side is smaller than itself while its right node is larger than itself. Unfortunately, because it is in space and lacks carbon dioxide, it is slowly dying. Each day, the node on the tree holding the largest value dies and falls off, taking with it all nodes it is currently supporting. You, having a favorite node on the tree, want to know how long it will take for your favorite node to die.
 
 ### Input Format
 The first line of input consists of an integer n denoting the number of test cases to follow.
