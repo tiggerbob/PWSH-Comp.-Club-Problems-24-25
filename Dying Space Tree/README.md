@@ -34,15 +34,19 @@ Output the number of days it will take for your favorite node to die.
 
 ### Sample Explaination
 The first test case's binary tree looks like this:
+```
        3
    1      5
   0 2    4  7
+```
 On the first day, the node containing 7 falls off. On the second day, the node containing 5 falls off, which is the favorite number. Therefore 2 is printed.
 
 The second test case's binary tree looks like this: (it is the same)
+```
        3
    1      5
   0 2    4  7
+```
 On the first day, the node containing 7 falls off. On the second day, the node containging 5 falls off. On the third day, the node containing 3 falls off. 1, the favorite number, is attached to the 3 node. It took 3 days for it to fall of, so 3 is printed.
 
 ### Notes
