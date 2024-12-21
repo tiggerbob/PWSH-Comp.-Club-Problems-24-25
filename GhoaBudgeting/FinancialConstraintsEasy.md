@@ -3,7 +3,8 @@ Alien Astra Calytrix lives in a planet called Ghede with a special currency call
 Astra wants to program a solution to this, but he failed Intro to Java with a 20! Astra asks you for help. He wants to know how much money he will have left after he distributes the money the way he wishes.
 
 ## Input Format
-The fist line contains two integer input in their respective order : $b$ and $n$
+The fist line contains on integer input: $b$
+The second lilne contains $n$
 The following $n$ lines contains $n$ doubles, representing all the individual balances the children demand
 
 ## Contraints
