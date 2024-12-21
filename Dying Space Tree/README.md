@@ -17,6 +17,7 @@ Output the number of days it will take for your favorite node to die.
 - 1 < 2^h-1 < 10^18
 
 ### Sample Input
+```
 1
 5 
 3
@@ -24,9 +25,12 @@ Output the number of days it will take for your favorite node to die.
 1
 3
 3 1 5 0 2 4 7
+```
 
 ### Sample Output
+```
 2
+```
 
 ### Sample Explaination
 The first test case's binary tree looks like this:
