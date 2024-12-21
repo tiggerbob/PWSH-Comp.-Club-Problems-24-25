@@ -1,4 +1,4 @@
-# Missile Time II
+# Missile Time I
 
 Your spaceship, the CoolNameHere, has made a wrong turn and is now flying through an asteroid field! Because the CoolNameHere has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of meteoroids before it is destroyed and all its passengers die. Fortunately, you have missiles and your second in command Gleebork’s planning expertise. Gleebork has accurately determined the locations of every circular meteoroid you will encounter at each hour and has drafted locations to shoot your ship’s square missiles at, using a 2D grid. 
 
