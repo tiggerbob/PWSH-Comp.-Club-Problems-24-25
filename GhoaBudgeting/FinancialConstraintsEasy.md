@@ -24,5 +24,6 @@ The money Astra is left it after paying the least number of payments
 
 ## Sample Input #2
 ```
-Do Later
+0
 ```
+There is 500 Ghoa that is needed to split. To minimize the amount of payments, he needs to pay the children asking for 7 Ghoa 71 times, 500-497=3. With the reamining 3 Ghoa, the children asking for 1 Ghoa is paid 3 times. This leaves Astra with 0 Ghoa left with the minimum number of payments.
