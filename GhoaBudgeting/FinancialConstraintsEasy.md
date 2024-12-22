@@ -18,10 +18,11 @@ The money Astra is left it after paying the least number of payments
 ## Sample Input #1
 ```
 500
-2 7
+2
+1 7
 ```
 
 ## Sample Input #2
 ```
-1
+Do Later
 ```
