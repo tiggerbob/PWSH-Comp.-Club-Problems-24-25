@@ -18,7 +18,7 @@ Output the number of days it will take for your favorite node to die.
 
 ### Sample Input
 ```
-1
+2
 5 
 3
 3 1 5 0 2 4 7
