@@ -1,5 +1,5 @@
 # **Ghoa Budgeting**
-Alien Astra Calytrix lives in a planet called Ghede with a special currency called Ghoa. In addition, Alien Astra Calytrix is the dad of a family of Alien with the family name Calytrix with the current family balance Ghoa of $b$. Astra also has $n$ children, each wanting their own amount of Ghoa from their dad. His children, just like Astra, are greedy and will take the the the amount they want an infinite number of times. Astra, being greedy, wants to divide his balance of Ghoa to with the least number of payments. 
+Alien Astra Calytrix lives in a planet called Ghede with a special currency called Ghoa. In addition, Alien Astra Calytrix is the dad of a family of Alien with the family name Calytrix with the current family balance Ghoa of $b$. Astra also has $n$ children, each wanting their own amount of Ghoa from their dad. His children, just like Astra, are greedy and will take the the the amount they want an infinite number of times. Astra, being greedy, wants to divide his balance of Ghoa to with the least number of payments paying of each his chilren in the order given from right to left.
 Astra wants to program a solution to this, but he failed Intro to Java with a 20! Astra asks you for help. He wants to know how much money he will have left after he distributes the money the way he wishes.
 
 ## Input Format
