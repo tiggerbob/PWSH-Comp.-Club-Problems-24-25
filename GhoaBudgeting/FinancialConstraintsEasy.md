@@ -4,8 +4,8 @@ Astra wants to program a solution to this, but he failed Intro to Java with a 20
 
 ## Input Format
 The fist line contains on integer input: $b$
-The second lilne contains $n$
-The following $n$ lines contains $n$ doubles, representing all the individual balances the children demand
+The second line contains $n$
+The third line following $n$ number contains $n$ doubles, representing all the individual balances the children demand
 
 ## Contraints
 0 $\leq$ $b$ $\leq$ 10000 <br>
