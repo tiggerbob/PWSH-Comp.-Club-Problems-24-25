@@ -9,16 +9,19 @@ For each of the n test cases,
 - p lines containing integers m, r, s, and n (moons, rings, suns, neighboring planets)
 
 ### Constraints
+```
 100 < P < 100
 10^6 < M < 10^5
 10^6 < R < 10^5
 10^6 < S < 10^5
 10^6 < N < 10^5
+```
 
 ### Output Format
 Return the beauty of the most beautiful planet.
 
 ### Sample Input
+```
 2
 2
 2 2 2 1
@@ -26,10 +29,13 @@ Return the beauty of the most beautiful planet.
 2
 2 2 4 2
 1 1 1 1
+```
 
 ### Sample Output
+```
 7
 4
+```
 
 ### Sample Case Explanation
 In the first test case, the sum of all the prime numbers in the first planet's quantities is 2+2+2+1=7, and the sum of the second planet's is 3+5+1+3=12. The second planet's sum is not a prime number, however, so its beauty score is halved: 12/2=6. 7 is greater than 6, so the first planet is more beautiful and 7 is printed.
