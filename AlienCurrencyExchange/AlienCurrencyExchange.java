@@ -46,7 +46,7 @@ public class AlienCurrencyExchange
             exRate = exRate.multiply( new BigInteger("4") );
             exRate = exRate.divide( new BigInteger("5") );
             
-            //reduceing x and highest degree
+            //reducing x and highest degree
             x -= placeVal.longValue();
             deg--;
         }
