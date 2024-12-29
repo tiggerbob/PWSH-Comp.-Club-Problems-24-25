@@ -9,7 +9,7 @@ The following $n$ lines contains two integer: $k$ people and $t$ time robbed <br
 ## Contraints
 $0$ $\leq$ $b$ $\leq$ $1e100$ <br>
 $0$ $\leq$ $n$ $\leq$ $100$ <br>
-$0$ $\leq$ $k$ $\leq$ $20$ <br>
+$0$ $\leq$ $k$ $\leq$ $15$ <br>
 $t$ will not be written in military time <br>
 
 ## Output
