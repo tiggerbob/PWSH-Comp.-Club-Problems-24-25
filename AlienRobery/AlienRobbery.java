@@ -6,9 +6,7 @@ public class AlienRobbery
 {
     public static void main(String[] args) throws IOException
     {
-        //IO Files
-        BufferedReader re = new BufferedReader( new FileReader("AlienRobery\\Input.txt") );
-        PrintWriter output = new PrintWriter("AlienRobery\\Output.txt");
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
         
         //Taking in Balance
         double bal = Double.parseDouble( re.readLine() );
@@ -45,15 +43,13 @@ public class AlienRobbery
             bal -= balRob;
 
             //Outputing Amount Robbed
-            output.printf("%.3f\n", balRob);
-            output.flush();
+            System.out.printf("%.3f\n", balRob);
         }
 
         //Outputing Remaining Balanced
-        output.printf("%.3f", bal);
+        System.out.printf("%.3f", bal);
         
         //Closing IO Files
         re.close();
-        output.close();
     }
 }
