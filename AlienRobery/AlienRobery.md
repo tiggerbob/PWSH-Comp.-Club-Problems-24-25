@@ -30,4 +30,4 @@ Then, the final bank balance rounded to $3$ decimals<br>
 ```
 
 ## Sample #0 Explaination
-In this case, the bank has $1000$ Euna left over with 1 robbery. The robbery only has $1$ person, and the time is not between $8$:$00$ PM - $8$:$00$ AM, meaning the percentage robbed is $1$ * $10$% without the additional $5$% robbed at night, leaving a total of $10$% of being robbed. The robbery group robs $100$ Euna, leaving the bank with $900$ Euna in the Alien Bank.
+In this case, the bank has $1000$ Euna left over with 1 robbery. The robbery only has $1$ person, and the time is not between $8$: $00$ PM - $8$: $00$ AM, meaning the percentage robbed is $1$ * $10$% without the additional $5$% robbed at night, leaving a total of $10$% of being robbed. The robbery group robs $100$ Euna, leaving the bank with $900$ Euna in the Alien Bank.
