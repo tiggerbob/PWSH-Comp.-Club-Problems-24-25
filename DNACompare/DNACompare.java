@@ -8,14 +8,11 @@ public class DNACompare
     public static void main(String[] args) throws IOException
     {
         //IO Files
-        BufferedReader re = new BufferedReader( new FileReader("DNACompare\\Input.txt") );
-        PrintWriter p = new PrintWriter("DNACompare\\Output.txt");
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
 
         //User Data
         String childDNA =  new StringBuilder(re.readLine()).reverse().toString() ; //reversing child DNA
         int t = Integer.parseInt( re.readLine() );
-        HashSet<Integer> momSet = new HashSet<>();
-        HashSet<Integer> dadSet = new HashSet<>();
 
         //Resulting Values
         String dadDNA = "";
@@ -35,9 +32,6 @@ public class DNACompare
                 {
                     momDNA = currParent;
                     maxLenMom = data[0][0];
-                }else if(data[0][0] == maxLenMom)
-                {
-                    momSet.add(data[0][0]);
                 }
             }
             else //Dad
@@ -46,23 +40,17 @@ public class DNACompare
                 {
                     dadDNA = currParent;
                     maxLenDad = data[0][0];
-                }else if(data[0][0] == maxLenDad)
-                {
-                    dadSet.add(data[0][0]);
                 }
             }
 
         }
 
         //Outputing Result
-        p.println(momDNA);
-        p.println(dadDNA);
+        System.out.println(momDNA);
+        System.out.println(dadDNA);
         
-        System.out.println( momSet.contains(maxLenMom) + " " + dadSet.contains(maxLenDad) );
         //Saving IO Files
         re.close();
-        p.close();
-        
     }
 
     public static int[][] longCommonStr(String strA, String strB)
