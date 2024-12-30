@@ -12,8 +12,7 @@ public class TimeOutGhoaBudgeting
     public static void main(String[] args) throws IOException
     {
         //IO Files
-        BufferedReader re = new BufferedReader( new FileReader("GhoaBudgeting\\Input.txt") );
-        PrintWriter p = new PrintWriter("GhoaBudgeting\\Output.txt");
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
 
         //Reading Data
         int bal = Integer.parseInt( re.readLine() );
@@ -40,7 +39,6 @@ public class TimeOutGhoaBudgeting
 
         //Closing IO Files
         re.close();
-        p.close();
     }
 
     public static int[] distribute(TreeSet<Integer> demands, int balance)
