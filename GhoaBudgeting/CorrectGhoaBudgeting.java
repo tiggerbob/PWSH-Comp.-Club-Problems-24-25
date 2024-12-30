@@ -8,8 +8,7 @@ public class CorrectGhoaBudgeting
     public static void main(String[] args) throws IOException
     {
         //IO Files
-        BufferedReader re = new BufferedReader( new FileReader("GhoaBudgeting\\Input.txt") );
-        PrintWriter p = new PrintWriter("GhoaBudgeting\\Output.txt");
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
 
         //Reading Data
         int bal = Integer.parseInt( re.readLine() );
@@ -44,18 +43,16 @@ public class CorrectGhoaBudgeting
 
             //Adding to already calculated costs
             cost.add(demand);
-            p.flush();
         }
         
         //Outputing Result
         if( ans[0] ==  Integer.MAX_VALUE && ans[1] == Integer.MAX_VALUE )
-            p.println(bal + " " + 0);
+            System.out.println(bal + " " + 0);
         else
-            p.print(ans[0] + " " + ans[1]);
+            System.out.print(ans[0] + " " + ans[1]);
 
         //Closing IO Files
         re.close();
-        p.close();
     }
 
     public static int[] reduceNum(HashSet<Integer> posNum, int[] arr)
