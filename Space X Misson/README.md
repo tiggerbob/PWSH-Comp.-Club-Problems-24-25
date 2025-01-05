@@ -19,7 +19,7 @@ The second line will contain $N$ integers of $t1, t2,... tn$ $(-10^6 \leq N \leq
 
 ## Output Format:
 The output will be a single String representing if the landing was either 
-```SAFE``` or $NOT$ $SAFE$ back on earth. 
+```SAFE``` or ```NOT SAFE``` back on earth. 
 
 **Author: Yoel Han**
 
