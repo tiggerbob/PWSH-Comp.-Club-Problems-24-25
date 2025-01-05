@@ -13,8 +13,8 @@ For each of the n test cases,
 Output the names of the impostors on separate lines.
 
 ### Constraints
-$5$ $\leq$ $c$ $\leq$ $7500$ 
-$1$ $\leq$ $i$ $\leq$ c$
+$5$ $\leq$ $c$ $\leq$ $7500$ <br>
+$1$ $\leq$ $i$ $\leq$ $c$
 
 ### Sample Input
 ```
