@@ -8,8 +8,8 @@ The following $n$ lines contains $n$ doubles, representing all the individual ba
 The individual children demands will be given in sorted increasing order<br>
 
 ## Contraints
-$0$ $\leq$ $b$ $\leq$ $1.225e7$ <br>
-$0$ $\leq$ $n$ $\leq$ $1.225e7$ <br>
+$0$ $\leq$ $b$ $\leq$ $1.225$ $\times$ $10^{7}$ <br>
+$0$ $\leq$ $n$ $\leq$ $1.225$ $\times$ $10^{7}$ <br>
 $0$ $\leq$ $individual$ $children$ $demands$ $\leq$ $1.225e7$ <br>
 
 ## Output
