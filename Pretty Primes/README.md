@@ -36,7 +36,7 @@ Return the beauty of the most beautiful planet.
 ```
 
 ### Sample Case Explanation4
-In the first test case, the sum of all the prime numbers in the first planet's quantities is $2$ $+$ $2$ $+$ $2$ $+$ $1$ $=$ $7$, and the sum of the second planet's is $3$ $+$ $5$ $+$ $1$ $+$ $3$ $=$ $12$. The second planet's sum is not a prime number, however, so its beauty score is halved: $\frac{12}{2}$ $=$ $6$. $7$ $>$ $6$, so the first planet is more beautiful and $7$ is printed. <br>
+In the first test case, the sum of all the prime numbers in the first planet's quantities is $2$ $+$ $2$ $+$ $2$ $+$ $1$ $=$ $7$, and the sum of the second planet's is $3$ $+$ $5$ $+$ $1$ $+$ $3$ $=$ $12$. The second planet's sum is not a prime number, however, so its beauty score is halved: $\frac{12}{2}$ $=$ $6$.   $7$ $>$ $6$, so the first planet is more beautiful and $7$ is printed. <br>
 In the second test case, the sum of all prime numbers in the first planet's quantities is $2$ $+$ $2$ $+$ $2$ $=$ $6$, and the sum of the second planet's is $1$ $+$ $1$ $+$ $1$ $+$ $1$ $=$ $4$. The first planet's sum is not prime, so its beauty score is halved: $\frac{6}{2}$ $=$ $3$. The beauty of the second planet is larger, so the second planet is more beautiful andd $4$ is printed.
 
 ### Notes
