@@ -34,3 +34,5 @@ TCC
 
 ## Sample #0 Explaination
 The child DNA is AGCCT. There are two mother DNAs (NGA and GNA) and two father DNAs (TCC and CTC). However, each of these DNA has to be reversed in order to be compared to the child, meaning AGN, ANG, CCT, CTC. Amoung the two mother DNAs, AGN shares AG while ANG only shares A. AGN has the longer length, meaning the mother is NGA. Amoung the two father DNA's, CCT shared CCT while CTC only share CT. Amoung the two father DNAs, CCT has the longer length, meaning the father is TCC.
+
+#### Author: Michael Li
