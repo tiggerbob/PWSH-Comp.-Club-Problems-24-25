@@ -28,6 +28,6 @@ Two Integers: First one being the money left, second one being the number of pay
 ```
 
 ## Explaination for Sample #0
-In order for Astra to have the minimum number of payments, he need to pay the children asking for $7$ Ghoa $71$ times, $500$ - $7$ $\times$ $71$ = $3$. After, he pays the children asking for $1$ Ghoa $3$ time. $3$ - $3$ $\times$ $1$ = $0$ remaining for Astra himself. Adding the number of times he has paid his children, he has $71$ + $3$ = $74$.
+In order for Astra to have the minimum number of payments, he need to pay the children asking for $7$ Ghoa $71$ times, $500$ $-$ $7$ $\times$ $71$ $=$ $3$. After, he pays the children asking for $1$ Ghoa $3$ time. $3$ $-$ $3$ $\times$ $1$ $=$ $0$ remaining for Astra himself. Adding the number of times he has paid his children, he has $71$ + $3$ = $74$.
 
-#### Author: Michael Li
+**Author: Michael Li**
