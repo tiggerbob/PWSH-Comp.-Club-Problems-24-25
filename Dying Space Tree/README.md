@@ -55,8 +55,8 @@ On the first day, the node containing $7$ falls off. On the second day, the node
 solution:
 less than mid = die on height of tree <br>
 for loop starting at [int $i$ $=$ height of tree] counting down with pointer at root node <br>
-if target leaf < current node, return i <br>
-else, decrement i and go right on the tree <br>
+if target leaf $<$ current node, return $i$ <br>
+else, decrement $i$ and go right on the tree <br>
 
 this may be too simple? but hm. binary trees <3 <r>
 
