@@ -14,7 +14,7 @@ Output the number of days it will take for your favorite node to die.
 
 ### Constraints
 - $-10^9$ $\leq$ $f$ $\leq$ $10^9$ <br>
-- $1$ $<$ $2\raise0.5ex\hbox{h}$-$1$ $<$ $10^18$ <br>
+- $1$ $<$ $2^{\text{h}}$-$1$ $<$ $10^18$ <br>
 
 
 
