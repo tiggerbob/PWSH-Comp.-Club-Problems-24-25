@@ -19,7 +19,7 @@ Two Integers: First one being the money left, second one being the number of pay
 ```
 500
 2
-7 1
+1 7
 ```
 
 ## Sample Output #0
