@@ -2,7 +2,7 @@
 
 Reff Mezos works at at his favorite company Glamazon Brime. He's tasked with moving packages from the 1st floor to the 2nd, and would like to know what the least number of trips would be to move all the packages.
 
-Reff can carry multiple packages at a time but he can only carry a maximum of 120 pounds. Reff also has a debilitating fear of odd numbers, so he refuses to carry packeges that have odd combined weights.
+Reff can carry multiple packages at a time but he can only carry a maximum of $120$ pounds. Reff also has a debilitating fear of odd numbers, so he refuses to carry packeges that have odd combined weights.
 
 What is the least amount of trips Reff can take to move all his packages?
 
