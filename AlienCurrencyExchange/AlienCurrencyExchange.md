@@ -36,4 +36,4 @@ Currencies at Individual Number Positions:   1 * 6042160859544933 = 604216085954
 Summing Result: 75527010744311670 + 6042160859544933 = 81569171603856603
 ```
 
-## Author: Michael Li
+#### Author: Michael Li
