@@ -5,17 +5,15 @@ You and your best friend Caz have gotten into a heated argument over what makes 
 ### Input Format
 The first line of input consists of an integer n denoting the number of test cases to follow.
 For each of the n test cases, 
-- int p - number of planets
-- p lines containing integers m, r, s, and n (moons, rings, suns, neighboring planets)
+- int $p$ - number of planets
+- $p$ lines containing integers $m$, $r$, $s$, and $n$ (moons, rings, suns, neighboring planets)
 
 ### Constraints
-```
-100 < P < 100
-10^6 < M < 10^5
-10^6 < R < 10^5
-10^6 < S < 10^5
-10^6 < N < 10^5
-```
+$100$ $<$ $P$ $<$ $100$ <br>
+$10^6$ $<$ $M$ $<$ $10^5$ <br>
+$10^6$ $<$ $R$ $<$ $10^5$ <br>
+$10^6$ $<$ $S$ $<$ $10^5$ <br>
+$10^6$ $<$ $N$ $<$ $10^5$ <br>
 
 ### Output Format
 Return the beauty of the most beautiful planet.
@@ -37,9 +35,9 @@ Return the beauty of the most beautiful planet.
 4
 ```
 
-### Sample Case Explanation
-In the first test case, the sum of all the prime numbers in the first planet's quantities is 2+2+2+1=7, and the sum of the second planet's is 3+5+1+3=12. The second planet's sum is not a prime number, however, so its beauty score is halved: 12/2=6. 7 is greater than 6, so the first planet is more beautiful and 7 is printed.
-In the second test case, the sum of all prime numbers in the first planet's quantities is 2+2+2=6, and the sum of the second planet's is 1+1+1+1=4. The first planet's sum is not prime, so its beauty score is halved: 6/2=3. The beauty of the second planet is larger, so the second planet is more beautiful andd 4 is printed.
+### Sample Case Explanation4
+In the first test case, the sum of all the prime numbers in the first planet's quantities is $2$ $+$ $2$ $+$ $2$ $+$ $1$ $=$ $7$, and the sum of the second planet's is $3$ $+$ $5$ $+$ $1$ $+$ $3$ $=$ $12$. The second planet's sum is not a prime number, however, so its beauty score is halved: $\frac{12}{2}$ $=$ $6$. $7$ $>$ $6$, so the first planet is more beautiful and $7$ is printed. <br>
+In the second test case, the sum of all prime numbers in the first planet's quantities is $2$ $+$ $2$ $+$ $2$ $=$ $6$, and the sum of the second planet's is $1$ $+$ $1$ $+$ $1$ $+$ $1$ $=$ $4$. The first planet's sum is not prime, so its beauty score is halved: $\frac{6}{2}$ $=$ $3$. The beauty of the second planet is larger, so the second planet is more beautiful andd $4$ is printed.
 
 ### Notes
 constraints may or may not be reasonable.
