@@ -12,7 +12,7 @@ Integer $x$ representing the amount of Ghoa
 
 
 ## Contraints
-$-9.99$ $\times$ $10^{15}$ $\leq$ $x$ $\leq$ $9.99e$ $\times$ $10^{15}$
+$-9.99$ $\times$ $10^{15}$ $\leq$ $x$ $\leq$ $9.99$ $\times$ $10^{15}$
 
 ## Output
 Integer representing the equivalent amount of Euna.
