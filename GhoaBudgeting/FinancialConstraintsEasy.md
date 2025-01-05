@@ -10,7 +10,7 @@ The individual children demands will be given in sorted increasing order<br>
 ## Contraints
 $0$ $\leq$ $b$ $\leq$ $1.225$ $\times$ $10^{7}$ <br>
 $0$ $\leq$ $n$ $\leq$ $1.225$ $\times$ $10^{7}$ <br>
-$0$ $\leq$ $individual$ $children$ $demands$ $\leq$ $1.225e7$ <br>
+$0$ $\leq$ $individual$ $children$ $demands$ $\leq$ $1.225$ $\times$ $10^{7}$ <br>
 
 ## Output
 Two Integers: First one being the money left, second one being the number of payments
