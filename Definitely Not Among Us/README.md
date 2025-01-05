@@ -1,16 +1,18 @@
 # Definitely Not Among Us
 
-In a turn of events nobody could have ever foretold, a dead body has been discovered on the exploration ship set out to reach planet 135-spn-1x13, killed by at least one impostor. Luckily, a crewmate can be confirmed innocent if at least one other innocent crewmate says they are innocent. Unfortunately, impostors can also claim to confirm others on the ship as innocent. Help the crew discover and eject the impostors among them! It is guaranteed that it is possible to find the number of impostors.
+In a turn of events nobody could have ever foretold, a dead body has been discovered on the exploration ship set out to reach planet 135-spn-1x13, killed by at least one impostor. Luckily, a crewmate can be confirmed innocent if at least one other innocent crewmate says they are innocent. Unfortunately, impostors can also claim to confirm others on the ship as innocent. Help the crew discover and eject the impostors among them! 
+
+It is guaranteed that it is possible to find the number of impostors.
 
 ### Input Format
 The first line of input consists of an integer $n$ denoting the number of test cases to follow.
 For each of the $n$ test cases, 
 - int $i$ - number of impostors
 - int $c$ - number of total crewmates, including impostors
-- an unknown number of lines lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent
+- an unknown number of lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent. Each crewmate's name is a unique integer in $[1,c]$.
 
 ### Output Format
-Output the names of the impostors on separate lines.
+Output the assigned numbers of the impostors on separate lines.
 
 ### Constraints
 $5$ $\leq$ $c$ $\leq$ $7500$ <br>
