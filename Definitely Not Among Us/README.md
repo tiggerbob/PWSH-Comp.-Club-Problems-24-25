@@ -12,7 +12,7 @@ For each of the $n$ test cases,
 - an unknown number of lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent. Each crewmate's name is a unique integer in $[1,c]$.
 
 ### Output Format
-Output the assigned numbers of the impostors on separate lines.
+Output the names of the impostors on separate lines in increasing order.
 
 ### Constraints
 $5$ $\leq$ $c$ $\leq$ $7500$ <br>
