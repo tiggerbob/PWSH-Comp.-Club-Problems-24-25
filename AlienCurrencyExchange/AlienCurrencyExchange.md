@@ -35,3 +35,5 @@ Currencies at Individual Number Positions:  10 * 7552701074431167 = 755270107443
 Currencies at Individual Number Positions:   1 * 6042160859544933 = 6042160859544933
 Summing Result: 75527010744311670 + 6042160859544933 = 81569171603856603
 ```
+
+## Author: Michael Li
