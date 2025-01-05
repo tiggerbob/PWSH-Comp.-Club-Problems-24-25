@@ -15,7 +15,7 @@ For each test case, check each speed reading to determine if it is safe or unsaf
 ## Input Format
 
 The first line contains an integer $n$ ($1$ $\leq$ $n$ $\leq$ $100$), representing the number of test cases (i.e., different speed readings). <br>
-Each of the following n lines contains a string $s$ ($1$ $\leq$ $\mid$ $s$ $\mid$ $\leq$ $100)4, containing space-separated integers. Each integer represents a spaceship speed rating in light years per second. <br>
+Each of the following n lines contains a string $s$ ($1$ $\leq$ $\mid$ $s$ $\mid$ $\leq$ $100$), containing space-separated integers. Each integer represents a spaceship speed rating in light years per second. <br>
 
 ## Output Format
 
