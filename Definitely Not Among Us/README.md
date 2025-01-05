@@ -5,8 +5,8 @@ In a turn of events nobody could have ever foretold, a dead body has been discov
 ### Input Format
 The first line of input consists of an integer n denoting the number of test cases to follow.
 For each of the n test cases, 
-- int i - number of impostors
-- int c - number of total crewmates, including impostors
+- int $i$ - number of impostors
+- int $c$ - number of total crewmates, including impostors
 - an unknown number of lines lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent
 
 ### Output Format
