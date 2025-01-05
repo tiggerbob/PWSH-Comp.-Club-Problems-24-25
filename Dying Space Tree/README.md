@@ -7,7 +7,7 @@ The first line of input consists of an integer n denoting the number of test cas
 For each of the n test cases, 
 - int $f$ - integer stored in your favorite node
 - int $h$ - height of the perfect binary search tree
-- $2$^{h} - $1$ space separated integers containing the binary tree with idx $0$ $=$ node $0$, etc etc.
+- $2^{\text{h}}$ $-$ $1$ space separated integers containing the binary tree with idx $0$ $=$ node $0$, etc etc.
 
 ### Output Format
 Output the number of days it will take for your favorite node to die.
