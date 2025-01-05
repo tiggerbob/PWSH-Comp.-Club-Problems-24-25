@@ -9,3 +9,5 @@ None
 
 ## Output Format
 <img src="Ascii Art Image.png" alt="Your Screwed :)">
+
+#### Author: Michael Li
