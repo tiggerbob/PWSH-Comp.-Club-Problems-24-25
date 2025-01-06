@@ -47,4 +47,44 @@ There is no need to handle empty strings. <br>
 3 2
 ```
 
+## Sample output explanation
+```
+We are tasked with determining the number of valid and invalid messages based on the given rules for decoding Zypher messages. Each message is a sequence of 1's and 0's, and the rules for valid messages are:
+
+A valid message:
+Contains at least one 1 and one 0.
+Does not start or end with consecutive 1's or 0's (i.e., no sequence like 00 or 11 at the beginning or end).
+Input Details:
+The input consists of:
+
+An integer n (the number of test cases/messages).
+Followed by n strings, each representing a message from the Zyphers.
+
+The sample input indicates that we have 5 test cases, and, as mentioned, each test case is a string of 1's and 0's.
+
+Test Case 1: 101
+This string contains both 1's and 0's, and no consecutive 1's or 0's at the beginning or end.
+Valid message.
+
+Test Case 2: 1101
+This string contains both 1's and 0's, and no consecutive 1's or 0's at the beginning or end.
+Valid message.
+
+Test Case 3: 111
+This string contains only 1's and no 0's.
+Invalid message because it lacks at least one 0.
+
+Test Case 4: 000
+This string contains only 0's and no 1's.
+Invalid message because it lacks at least one 1.
+
+Test Case 5: 010
+This string contains both 1's and 0's, and no consecutive 1's or 0's at the beginning or end.
+Valid message.
+
+Now, we output the number of valid messages followed by the number of invalid messages, seperated by a space.
+3 valid messages and 2 invalid messages results in an output of [3, 2].
+
+```
+
 #### Author: Ramy Hijazi
