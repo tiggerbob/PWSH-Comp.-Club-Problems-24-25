@@ -7,13 +7,9 @@ public class TimeOutPlanetNaming
 {
     public static void main(String[] args) throws IOException
     {
-        //Timing
-        long startTime = System.nanoTime();
-        
         //Input Class
-        BufferedReader re = new BufferedReader( new FileReader("PlanetNaming\\Input.txt") );
-        PrintWriter p = new PrintWriter("PlanetNaming\\Output.txt");
-
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
+        
         //Getting Namer Letters - Caz Armadillo
         HashSet<Character> namerLetter = new HashSet<>();
         namerLetter.add('C');
@@ -109,15 +105,8 @@ public class TimeOutPlanetNaming
                 changes = tempChange;
                 minStr = oriName;
             }
-
-            System.out.println(tempChange);
         }
-        p.print(minStr);
-
-
-        //Timing
-        long endTime = System.nanoTime();
-        System.out.println("Time is: " + (endTime-startTime) /(double) 1000000000 + " seconds");
+        System.out.print(minStr);
 
         //Closing Input
         re.close();
