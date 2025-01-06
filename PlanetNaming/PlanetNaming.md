@@ -6,7 +6,7 @@ The Planetary Naming Conventions are as follows:
 - The first character in every name should be a capital letter
 - The name may not contain “earth”, no matter the capitalization
 - The name must contain every letter (case sensitive) in its namers’ (Caz Armadillo) full name at least once
-- If the name contains an odd number of capitalized letters, it must have an odd number of digits $0$-$9$.
+- If the name contains an odd number of capitalized letters, it must have an odd number of digits $0$ - $9$.
 
 ## Input Format
 The first line of input consists of an integer $n$ denoting the number of test cases to follow. <br>
