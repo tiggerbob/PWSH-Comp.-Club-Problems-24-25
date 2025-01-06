@@ -60,7 +60,7 @@ The input consists of:
 An integer n (the number of test cases/messages).
 Followed by n strings, each representing a message from the Zyphers.
 
-The sample input indicates that we have 5 test cases, and, as mentioned, each test case is a string of 1's and 0's.
+The sample input indicates that we have 5 test cases, and, as mentioned, each test case is a string of only ones and zeros.
 
 Test Case 1: 101
 This string contains both 1's and 0's, and no consecutive 1's or 0's at the beginning or end.
