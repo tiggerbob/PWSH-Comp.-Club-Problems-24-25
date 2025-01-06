@@ -6,13 +6,9 @@ import java.io.*;
 public class CorrectPlanetNaming 
 {
     public static void main(String[] args) throws IOException
-    {
-        //Timing
-        long startTime = System.nanoTime();
-        
+    { 
         //Input Class
-        BufferedReader re = new BufferedReader( new FileReader("PlanetNaming\\Input.txt") );
-        PrintWriter p = new PrintWriter("PlanetNaming\\Output.txt");
+        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
 
         //Getting Namer Letters - Caz Armadillo
         HashSet<Character> namerLetter = new HashSet<>();
@@ -60,7 +56,6 @@ public class CorrectPlanetNaming
                 {
                     tempChange++;
                     overEarthCt++;
-                    System.out.println("Missing Name Letter Change " + letter);
                 }
             }
 
@@ -82,7 +77,6 @@ public class CorrectPlanetNaming
                 if(j == 0 && (65 > chr || chr > 90) ) 
                 {
                     tempChange++;
-                    System.out.println("First Letter Not Capital");
                     //May override Earth becuase can change captial letter from E, assuming Earth is in the beginning
                     if( (name.length() >= 5)  && name.substring(0,5).equalsIgnoreCase("Earth") )
                         overEarthCt++; 
@@ -101,19 +95,10 @@ public class CorrectPlanetNaming
             if(capCt % 2 == 1 && numCt % 2 == 0)
             {
                 tempChange++;
-                System.out.println("Need to Add Number for Odd Rule");
             }
-
-            System.out.println("");
-            System.out.print("Changes not accounting for Earth " + tempChange + ", Earth Changes: " + earthCt + "-" + overEarthCt + "=" + (earthCt-overEarthCt));
 
             //Adding Addition Earths if the previous changes have not overrode enought earths
             tempChange += (earthCt > overEarthCt)? earthCt - overEarthCt : 0;
-
-            System.out.println(", Total Changes: " + tempChange);
-            System.out.println();
-
-            
 
             //Updating Change
             if(tempChange < changes)
@@ -122,16 +107,10 @@ public class CorrectPlanetNaming
                 minStr = name;
             }
         }
-        p.print(minStr);
-
-
-        //Timing
-        long endTime = System.nanoTime();
-        System.out.println("Time is: " + (endTime-startTime) /(double) 1000000000 + " seconds");
+        System.out.print(minStr);
 
         //Closing Input
         re.close();
-        p.close();
     }
 
 }
