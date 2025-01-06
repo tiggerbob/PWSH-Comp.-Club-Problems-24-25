@@ -17,7 +17,7 @@ For each test case, output: <br>
 * The total number of occurrences of the word "glorb".
 
 ## Constraints
-Each species code consists only of alphanumeric characters (A-Z, a-z, $0$-$9$). <br>
+Each species code consists only of alphanumeric characters (A-Z, a-z, $0$- $9$). <br>
 Each string has a length between $1$ and $100$ characters. <br>
 
 ## Sample Input
