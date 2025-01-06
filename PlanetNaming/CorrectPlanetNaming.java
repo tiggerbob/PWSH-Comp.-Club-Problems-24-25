@@ -48,6 +48,8 @@ public class CorrectPlanetNaming
             int tempChange = 0;
             //Storing changes changes that will destroy "Earth"s
             int overEarthCt = 0;
+            //Determine if Capital from Namer's name is Added
+            boolean capAdded = false;
 
             //Checking Namers' Letters
             for(Character letter : namerLetter)
