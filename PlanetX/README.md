@@ -39,4 +39,14 @@ glorbgleebglorb
 2 2
 ```
 
+## Sample Output Explanation
+```
+In all strings, we simply look for the occurences of "gleeb" and "glorb".
+In test case 1, gleeb appears 3 times, and glorb appears twice. Thus, the output is [3 2].
+In test case 2, gleeb appears 1 time, and glorb appears once as well. Thus, the output is [1 1].
+In test case 3, gleeb appears 1 time, and glorb appears once as well. Thus, the output is [1 1].
+In test case 4, gleeb appears 1 time, and glorb never appears. Thus, the output is [1 0].
+In test case 5, gleeb appears 2 times, and glorb appears twice as well. Thus, the output is [2 2].
+
+
 **Author: Ramy Hijazi**
