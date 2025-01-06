@@ -8,7 +8,7 @@ all lifeforms, (i.e. all gleebs and glorbs), on a given region of PlanetX and re
 ## Input Format
 
 The first line of input consists of an integer $n$ ($1$ $\leq$ $n$ $\leq$ $100$), denoting the number of test cases. <br>
-Each of the following $n$ lines contains a string $s$ ($1$ $\leq$ $\mid$ $s$ $\mid$ $\leq$ $100$), representing a lifeform's species code. The string consists of alphanumeric characters only (A-Z, a-z, $0$-$9$). <br>
+Each of the following $n$ lines contains a string $s$ ($1$ $\leq$ $\mid$ $s$ $\mid$ $\leq$ $100$), representing a lifeform's species code. The string consists of alphanumeric characters only (A-Z, a-z, $0$- $9$). <br>
 
 ## Output Format
 
