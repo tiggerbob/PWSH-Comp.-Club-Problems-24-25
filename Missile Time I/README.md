@@ -1,10 +1,8 @@
 # Missile Time I
 
-Your spaceship, the CoolNameHere, has made a wrong turn and is now flying through an asteroid field! Because the CoolNameHere has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of meteoroids before it is destroyed and all its passengers die. Fortunately, you have missiles and your second in command Gleebork’s planning expertise. Gleebork has accurately determined the locations of every circular meteoroid you will encounter at each hour and has drafted locations to shoot your ship’s square missiles at, using a 2D grid. 
+Your spaceship, the CoolNameHere, has made a wrong turn and is now flying through an asteroid field! Because the CoolNameHere has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of asteroids before it is destroyed and all its passengers die. Fortunately, you have missiles and your second in command's, Gleebork’s, planning expertise. 
 
-If a missile overlaps a meteorite, that meteoroid will be instantly evaporated and pose no threat to your ship. However, because you are aware Gleebork is much more skilled at determining meteorite locations than planning missile targets, you must determine whether Gleebork’s plan will actually succeed. Print out “We made it!” if the spaceship does not sustain enough damage to be destroyed or the number of hours it would take for the spaceship to be destroyed with Gleebork’s plan.
-
-NOTE: i don’t know the space rock terminology. this must be fixed.
+Using their psychic powers, Gleebork has accurately predicted the locations of every circular meteoroid you will encounter at each hour and has drafted locations to shoot your ship’s square missiles at, using a 2D grid. If a missile overlaps an asteroid, it will be instantly evaporated and pose no threat to your ship. However, because you are aware Gleebork is much more skilled at predicting asteroid locations than planning missile targets, you must determine whether Gleebork’s plan will actually succeed.
 
 ### Input Format
 The first line of input consists of an integer s denoting the number of asteroid hits the ship can sustain without being destroyed.
