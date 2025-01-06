@@ -16,7 +16,7 @@ For each of the h hours,
 - $m$ lines containing an integer side length, center x coordinate, and center y coordinate of a square missile
 
 ### Output Format
-Output “We made it!” if the ship does not get destroyed or the number of hours it takes for the asteroid to be destroyed.
+Output the number of hours it takes for the asteroid to be destroyed or “We made it!” if the ship does not get destroyed.
 
 ### Constraints
 TODO
