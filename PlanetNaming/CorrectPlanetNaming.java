@@ -100,6 +100,12 @@ public class CorrectPlanetNaming
             //Adding Addition Earths if the previous changes have not overrode enought earths
             tempChange += (earthCt > overEarthCt)? earthCt - overEarthCt : 0;
 
+            //Checking if can replace captial namer letter at beginning, asusming it is Earth
+            if( name.substring(0,5).equalsIgnoreCase("Earth") && capAdded )
+            {
+                tempChange--;
+            }
+
             //Updating Change
             if(tempChange < changes)
             {
