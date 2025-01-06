@@ -43,4 +43,31 @@ safe unsafe unsafe safe
 safe unsafe safe unsafe
 ```
 
+## Sample output explanation
+```
+Test Case 1: 15 50 105 90
+The speed readings for this test case are: 15, 50, 105, 90.
+15 is between 10 and 100, so it's safe.
+50 is between 10 and 100, so it's safe.
+105 is greater than 100, so it's unsafe.
+90 is between 10 and 100, so it's safe.
+Output for this test case: safe safe unsafe safe
+
+Test Case 2: 100 5 200 10
+The speed readings for this test case are: 100, 5, 200, 10.
+100 is between 10 and 100, so it's safe.
+5 is less than 10, so it's unsafe.
+200 is greater than 100, so it's unsafe.
+10 is between 10 and 100, so it's safe.
+Output for this test case: safe unsafe unsafe safe
+
+Test Case 3: 99 150 50 101
+The speed readings for this test case are: 99, 150, 50, 101.
+99 is between 10 and 100, so it's safe.
+150 is greater than 100, so it's unsafe.
+50 is between 10 and 100, so it's safe.
+101 is greater than 100, so it's unsafe.
+Output for this test case: safe unsafe safe unsafe
+
+```
 **Author: Ramy Hijazi**
