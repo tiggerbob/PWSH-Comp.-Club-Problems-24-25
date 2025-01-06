@@ -56,6 +56,7 @@ public class CorrectPlanetNaming
                 {
                     tempChange++;
                     overEarthCt++;
+                    if(65 <= letter && letter <= 90 && ! capAdded) capAdded = true;
                 }
             }
 
