@@ -10,10 +10,10 @@ NOTE: i don’t know the space rock terminology. this must be fixed.
 The first line of input consists of an integer s denoting the number of asteroid hits the ship can sustain without being destroyed.
 The second line of input consists of an integer h denoting the number hours you will be flying through the asteroid field.
 For each of the h hours, 
-int a - the number of asteroids you will encounter
-a lines containing an integer radius, center x coordinate, and center y coordinate of a circular asteroid
-int m - the number of missiles you will shoot
-m lines containing an integer side length, center x coordinate, and center y coordinate of a square missile
+- int $a$ - the number of asteroids you will encounter
+- $a$ lines containing an integer radius, center x coordinate, and center y coordinate of a circular asteroid
+- int $m$ - the number of missiles you will shoot
+- $m$ lines containing an integer side length, center x coordinate, and center y coordinate of a square missile
 
 ### Output Format
 Output “We made it!” if the ship does not get destroyed or the number of hours it takes for the asteroid to be destroyed.
