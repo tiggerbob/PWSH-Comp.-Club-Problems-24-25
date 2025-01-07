@@ -14,7 +14,7 @@ safe landing.
 The first line will contain a single integer $N$ $(0 \leq N \leq
  10^5)$, representing the number of thrust values.
 
-The second line will contain $N$ integers of $t1, t2,... tn$ $(-10^6 \leq N \leq
+The second line will contain $N$ integers of $t_1, t_2,... t_n$ $(-10^6 \leq N \leq
  10^6)$, representing the thrust values in sequence. 
 
 ## Output Format:
