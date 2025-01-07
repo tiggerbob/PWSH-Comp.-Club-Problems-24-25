@@ -18,13 +18,10 @@ For each of the h hours,
 Output the number of hours it takes for the asteroid to be destroyed or “We made it!” if the ship does not get destroyed.
 
 ### Constraints
-- $0$ $<$ $s$ <= $10^8$ <br>
-- $1$ $<$ $h$ <= $10^4$ <br>
-- $1$ $<$ $l$ <= $x$ <= $y$ <= $10^8$ <br>
-- $0$ $<$ $a$ <= $10^4$ <br>
-
-- $-10^9$ $\leq$ $f$ $\leq$ $10^9$ <br>
-- $1$ $<$ $2^{\text{h}}$ $-$ $1$ $<$ $10^{\text{18}}$ <br>
+- $0$ $\leq$ $s$ $\leq$ $10^8$ <br>
+- $1$ $\leq$ $h$ $\leq$ $10^4$ <br>
+- $1$ $\leq$ $l$ $\leq$ $x$ <= $y$ <= $10^8$ <br>
+- $0$ $\leq$ $a$ $\leq$ $10^4$ <br>
 
 ### Sample Input
 ```
