@@ -12,9 +12,9 @@ The first line contains $N$ and $M$ (space-separated), which is the grid-space o
 The next $N$ lines each contain $M$ space-separated characters; each character represents a grid cell. `*` means the cell is empty (no room), `.` indicates a room with open vents, `#` indicates a room with no open vents, and `@` indicates the room where the fumes start spreading from.
 
 ### Constraints
-$1 \le N \le 10^4$
+$1 \le N \le 10^3$
 
-$1 \le M \le 10^4$
+$1 \le M \le 10^3$
 
 ### Output Format
 The number of rooms that will need cleanup afterward (when the fumes are done spreading).
