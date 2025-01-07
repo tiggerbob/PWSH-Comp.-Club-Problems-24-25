@@ -1,4 +1,4 @@
-# Missile Time I
+# Missile Time
 
 Your spaceship, the CoolNameHere, has made a wrong turn and is now flying through an asteroid field! Because the CoolNameHere has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of asteroids before it is destroyed and all its passengers die. Fortunately, you have the budget to shoot up to 1 missile per hour and your second in command's, Gleebork’s, planning expertise. 
 
@@ -18,18 +18,45 @@ For each of the h hours,
 Output the number of hours it takes for the asteroid to be destroyed or “We made it!” if the ship does not get destroyed.
 
 ### Constraints
-TODO
+- s
+- h
+- l
+- x
+- y
+- my hands are so cold i will finish this in like 5 minutes i can't type properly
+
+- $-10^9$ $\leq$ $f$ $\leq$ $10^9$ <br>
+- $1$ $<$ $2^{\text{h}}$ $-$ $1$ $<$ $10^{\text{18}}$ <br>
 
 ### Sample Input
-TODO
+```
+2
+2
+2
+1
+3
+1
+1 1 1
+2
+0
+0
+1
+5 5 5
+```
 
 ### Sample Output
-TODO
+```
+We made it!
+```
 
 ### Sample Case Explanation
-TODO
+During the first hour, a missile of sidelength 2 with its center at (1,3) is launched, and the only asteroid that appears has a radius of 1 and a center at (1,1). The missile intersects with the asteroid at its top, so it is destroyed. The ship is hit 0 times this hour.
+
+During the second hour, a missile of sidelength 2 with its center at (0,0) is launched, and the only asteroid that appears has a radius of 5 and a center at (5,5). The missile does not intersect with the asteroid anywhere, so the ship is hit 1 time this hour.
+
+In total, the ship is hit 1 time, which is less than how many times it can be hit, 2, so "We made it!" is printed.
 
 ### Notes
-I did not see that Teagan had a problem of nearly the exact scenario before writing this, RIP. The main difference between the problems is that Teagan's checks circle-point intersection while mine checks circle-square intersection. Thus, mine is harder but not necessarily better...I think Teagan's presents a much more comprehensable scenario. We can discuss this? :P
+The solution techncially could be improved for certain cases where it's impossible to sustain enough damage (eg. ship can be hit 3 times but only 2 asteroids ever appear), but I don't see that as the point of the problem, so :P
 
 **Author: Natalie**
