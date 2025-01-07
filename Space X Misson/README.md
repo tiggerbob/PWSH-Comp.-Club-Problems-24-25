@@ -14,12 +14,26 @@ safe landing.
 The first line will contain a single integer $N$ $(0 \leq N \leq
  10^5)$, representing the number of thrust values.
 
-The second line will contain $N$ integers of $t_1, t_2,... t_n$ $(-10^6 \leq N \leq
+The second line will contain $N$ integers of $t1, t2,... tn$ $(-10^6 \leq N \leq
  10^6)$, representing the thrust values in sequence. 
 
 ## Output Format:
 The output will be a single String representing if the landing was either 
-```SAFE``` or ```NOT SAFE``` back on earth. 
+$SAFE$ or $NOT$ $SAFE$ back on earth. 
+
+## Sample Input:
+```
+5
+3 -1 -2 0 0  
+```
+
+## Sample Output:
+```
+SAFE
+```
+
+## Sample Case Explanation:
+The sum of the thrust values is $3 + (-1) + (-2) + 0 + 0 = 0$. Since the total is zero, the rocket has landed safely, and the output is SAFE. 
 
 **Author: Yoel Han**
 
