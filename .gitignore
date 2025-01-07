@@ -1,6 +1,7 @@
 # Input/output stuff
 *.in
 *.out
+*.python-version
 
 /.vscode
 

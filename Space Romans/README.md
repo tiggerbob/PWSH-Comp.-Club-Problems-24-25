@@ -2,27 +2,25 @@
 
 It's the year 2225, and humanity is at war with the Space Romans!
 
-Luckily, the Global Bureau of Human Intelligence Affairs (GBHIA) has just intercepted a ***completely unencrypted*** transmission from the Space Roman high command. It details their entire battle plans for the late-2225 counteroffensive, including the coordinates of planned critical strike points.
+Luckily, the Global Bureau of Human Intelligence Affairs (GBHIA) has just intercepted a transmission from the Space Roman high command detailing their entire battle plans, including the coordinates of strike points.
 
-Coincidentally, the Space Romans use a similar numbering system to the Ancient Romans on Earth: Letters represent certain numeral denominations, and they can be interpreted in the same order as Ancient Roman numerals - a smaller numeral before a larger one represents subtraction, and vice versa. However, Space Roman numerals use completely different letters that represent completely different values than we are used to, and the GBHIA has yet to decode their meaning. Furthermore, Space Romans only use $4$ symbols, compared to $7$ on Earth.
+Coincidentally, the numbers in the transmission are based on a similar numeral system to Earth's Ancient Romans: Letters represent values, and sequences of letters add up to a single value. However, Space Roman numerals use different letters and values than we are used to, and the GBHIA has yet to decode their meaning. Furthermore, Space Romans only use $4$ symbols, and they always list numerals in nonincreasing order. (For example, M before C and C before V in our Roman numeral system.)
 
-One critical piece of information that the GBHIA *have* deciphered is that the first $4$ numbers on any Space Roman transmission represent years exactly $3, 2, 1,$ and $0$ centuries before present day, and they are guaranteed to include all $4$ distinct Space Roman symbols. Could this help the GBHIA determine the rest of the numbers (strike points) in the transmission?
+One critical piece of information that the GBHIA *have* deciphered is that the first $4$ numbers on any Space Roman transmission represent years exactly $300, 200, 100,$ and $0$ before the date of transmission (the year 2225), and they are guaranteed to include all $4$ distinct Space Roman symbols. Could this help the GBHIA determine the rest of the numbers (strike points) in the transmission?
 
 Your task is to crack the Space Roman numeral system and decode each of $N$ strike points in the transmission, producing a series of integers ($s_i$).
 
 ### Input Format
 The first line contains $N$, the number of strike points to decode.
 
-The next $4$ lines contain, as described above, the years exactly $3, 2, 1,$ and $0$ centuries before present day (in Space Roman numerals).
+The next $4$ lines contain the years exactly $300, 200, 100,$ and $0$ before present day in Space Roman numerals (in that order).
 
-The next $N$ lines each contain a string of Space Roman numerals, which must be resolved to the integer ($s_i$) they represent.
+The next $N$ lines each contain a string of Space Roman numerals, which must be resolved to the strike point ($s_i$) they represent.
 
 ### Constraints
 $1 \le N \le 10^3$
 
-$1 \le s_i \le 10^4$
-
-The Space Roman numeral code is guaranteed to be decipherable from the first 4 numbers, and it is also guaranteed to follow standard Ancient Roman numeral dating convention. (The largest number appears first.)
+Space Roman numerals are all uppercase characters guaranteed to represent integers in the range $[1, 2000]$ that can be solved from the 4-number header. They are not guaranteed to represent distinct values.
 
 ### Output Format
 $N$ lines containing the integer values of the strike points ($s_i$) encoded by each sequence of Space Roman numerals.
@@ -30,42 +28,37 @@ $N$ lines containing the integer values of the strike points ($s_i$) encoded by 
 ### Sample Input
 ```
 4
-DDYYOOP
-DDYOOP
-DDOOP
-DYDOOP
-DYDP
-DDDDYDP
-DD
-OYP
+IIIIIIIIIIMUUHHHHHHHH
+IIIIIIMMUUUUUUUUUH
+IIIIIIMMMUUUUHHHHHHHHHH
+IIMMMMMMMMUUUHHHHHHHH
+IIIMM
+IMUH
+IMU
+I
 ```
 
 ### Sample Output
 ```
-1905
-4905
-2000
-95
+815
+425
+405
+175
 ```
 
 ### Sample Case Explanation
 The first line tells us $N = 4$.
 
-Next, we have the 4 dates we are interested in. We know that the next 4 lines represent 2225 (the current year), 2125 (1 century prior), 2025 (2 centuries prior), and 1925 (3 centuries prior). For each date, we can set up a system of equations to determine the relationship between $D, Y, O, P,$ and base 10 numbers. For example, the first equation gives $D + D + Y + Y + O + O + P = 2 \times (D + Y + O) + P = 2225$. Note that we know the numerals appear in descending order because it is impossible for two "smaller" numerals to appear before a "larger" one. We could set up the rest of the equations and solve for $D, Y, O,$ and $P$ (4 equations for 4 unknowns), but an astute observer may see that $D, Y, O,$ and $P$ are simply aliases in this case for $M, C, X,$ and $V$ in our Roman numeral system. (You can test it out yourself: $2 \times (M + C + X) + V = 2 \times (1110) + 5 = 2225$.) Of course, other test cases do not necessarily follow this rule, so be prepared to solve equations. Also note that this particular Space Roman numbering system does not encode for the value 1, meaning not all integers can actually be represented with their system - Space Romans are not renowned for their mathematical prowess!
+Next, we have the 4 dates we are interested in. We know that the next 4 lines represent 2225 (the current year), 2125 (1 century prior), 2025 (2 centuries prior), and 1925 (3 centuries prior). For each date, we can set up a system of equations to determine the relationship between $I, M, U, H,$ and base 10 numbers. For example, the first equation gives $10 \times I + 1 \times M + 2 \times U + 8 \times H = 2225$. Note that since the numerals are guaranteed to appear in nonincreasing order in each sequence, we do not have to worry about subtraction that would exist with numbers like IX in Earth's Roman numeral system. Setting up the rest of the equations and solving yields $I, M, U, H = 175, 145, 85, 20$ (respectively).
 
 The remaining $N = 4$ lines give us the now-decodable strike points ($s_i$).
 
-$DYDP = 1000 + (1000 - 100) + 5 = \underline{1905}$
+$IIIM = 3 \times 175 + 2 \times 145 = \underline{815}$
 
-$DDDDYDP = 1000 + 1000 + 1000 + 1000 + (1000 - 100) + 5 = \underline{4905}$
+$IMUH = 1 \times 175 + 1 \times 145 + 1 \times 85 + 1 \times 20 = \underline{425}$
 
-$DD = 1000 + 1000 = \underline{2000}$
+$IMU = 1 \times 175 + 1 \times 145 + 1 \times 85 = \underline{405}$
 
-$OYP = (100 - 10) + 5 = \underline{95}$
-
-### Notes
-The problem becomes relatively easy once we determine the values encoded by each numeral. Furthermore, we have 4 unknown values (the numerals) and 4 equations (the dates/centuries), and we are guaranteed a solvable system of equations.
-
-**FURTHER HINT:** *Linear algebra (vectors and matrices) is your friend for this problem!*
+$I = 1 \times 175 = \underline{175}$
 
 **Author: Ryan**
