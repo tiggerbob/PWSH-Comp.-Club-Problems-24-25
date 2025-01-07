@@ -8,8 +8,6 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         
-    	  input = input.toLowerCase();
-        
         // array for character counts (a-z)
         int[] charCount = new int[26];
         for (char c : input.toCharArray()) {
