@@ -19,7 +19,7 @@ public class Solution {
             }
         }
 
-        // 
+        // output num of armstrong numbers
         System.out.println(count);
     }
     
