@@ -20,7 +20,7 @@ Output the number of hours it takes for the asteroid to be destroyed or “We ma
 ### Constraints
 - $0$ $\leq$ $s$ $\leq$ $10^8$ <br>
 - $1$ $\leq$ $h$ $\leq$ $10^4$ <br>
-- $1$ $\leq$ $l$ $\leq$ $x$ <= $y$ <= $10^8$ <br>
+- $1$ $\leq$ $l, x, y$ $\leq$ $10^8$ <br>
 - $0$ $\leq$ $a$ $\leq$ $10^4$ <br>
 
 ### Sample Input
