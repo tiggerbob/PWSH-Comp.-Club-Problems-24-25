@@ -22,5 +22,27 @@ fuel cost of the i-th astroid.
 The output will be a single integer which is the maximum resources
 that can be collected without exceeding the available fuel.
 
+## Sample Input:
+```
+5 15
+4 3
+5 4
+3 2
+8 6
+6 5
+```
+## Sample Output:
+```
+17
+```
+## Sample Case Explanation:
+Nick has a total fuel capacity of $15$. The optimal strategy to maximize resources is:
+
+Mine asteroid 3 (resources = $3$, fuel = $2$).
+Mine asteroid 1 (resources = $4$, fuel = $3$).
+Mine asteroid 2 (resources = $5$, fuel = $4$).
+Mine asteroid 5 (resources = $6$, fuel = $5$).
+The total resources collected are $3 + 4 + 5 + 6 = 17$, and the total fuel used is $2 + 3 + 4 + 5 = 14$, which does not exceed the fuel limit.
+
 **Author: Yoel Han**
  
