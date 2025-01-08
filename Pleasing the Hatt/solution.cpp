@@ -18,12 +18,12 @@ int main()
         int num;
         cin >> num;
         int reqNum = kSumTarget - num;
-        if (sumMap[reqNum])
+        if (sumMap[reqNum] > 0)
         {
             sumMap[reqNum]--; // Remove this shell
             ans++;
         }
-        sumMap[num]++;
+        else sumMap[num]++;
     }
 
     cout << ans << endl;

@@ -2,6 +2,8 @@
 *.in
 *.out
 *.python-version
+cases/
+*.zip
 
 /.vscode
 

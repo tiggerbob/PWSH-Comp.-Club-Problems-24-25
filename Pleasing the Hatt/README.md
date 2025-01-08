@@ -12,9 +12,9 @@ The first line of input contains an integer $N$ denoting the number of shells co
 The next $N$ lines contain the number of markings ($m_i$) for each of the $N$ shells.
 
 ### Constraints
-$1 \le N \le 10^9$
+$1 \le N \le 10^6$
 
-$1 \le m_i \le 10^9$
+$1 \le m_i \le 10^8$
 
 ### Output Format
 TODO
@@ -44,6 +44,6 @@ The first shell has $7777777$ markings, which unfortunately means it cannot form
 But the third and fourth shells sum to $6666666 + 1111111 = 7777777$, so this is a valid pair. And the fifth and sixth shells sum to $7777776 + 1 = 7777777$, so this is also a valid pair. The last shell cannot be paired with any others (we have used up shells 3-6), so we can ignore it at this point.
 
 ### Notes
-To solve this problem within a reasonable amount of time, a solution of $O(N)$ is required. A solution with time complexity $O(N^2)$ will perform $10^{18}$ calculations when $N = 10^9$, which will far exceed the time limit.
+To solve this problem within time constraints, a solution of $O(N)$ is required.
 
 **Author: Ryan**
