@@ -17,7 +17,7 @@ $1 \le N \le 10^6$
 $1 \le m_i \le 10^8$
 
 ### Output Format
-TODO
+Print the number of non-overlapping shell pairs that sum to 7777777.
 
 ### Sample Input
 ```
