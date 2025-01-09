@@ -22,14 +22,14 @@ int main()
     // Set up last col of aug matrix (A)
     for (int i = 0; i < N_NUM; i++) A[i][N_NUM] = YEAR_EQUIVALENTS[i];
 
+    int j = 0;
     // Set up equations
     for (int i = 0; i < N_NUM; i++)
     {
-        int j = 0;
         for (char c : years[i])
         {
             if (!numeralIdx.count(c)) numeralIdx[c] = j++;
-            A[i][numeralIdx[c]] += 1;
+            A[i][numeralIdx[c]]++;
         }
     }
 
@@ -66,6 +66,7 @@ int main()
     }
     // cast f.p. dValues to int, avoiding round-down errors
     for (int i = 0; i < N_NUM; i++) values[i] = dValues[i] + 0.5;
+
 
     // Decode strike points
     for (int i = 0; i < N; i++) {
