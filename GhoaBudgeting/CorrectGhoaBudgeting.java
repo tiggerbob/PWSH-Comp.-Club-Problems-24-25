@@ -59,11 +59,11 @@ public class CorrectGhoaBudgeting
     {
         //Finding factor starting from remaining money
         int max = arr[0];
-        //Exception: if remaining is 0 or 1, can not be simipified
-        if(max <= 1) return arr;
+        //Exception: if remaining is 0 , can not be simipified
+        if(max == 0) return arr;
 
         //Simplifying array
-        for(int i = max; i > 1; i--)
+        for(int i = max; i >= 1; i--)
         {
             if( posNum.contains(i) && arr[0] >= i ) //only if in existing numbers
             {
