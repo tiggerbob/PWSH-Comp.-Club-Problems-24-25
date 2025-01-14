@@ -13,7 +13,7 @@ public class CorrectGhoaBudgeting
         //Reading Data
         int bal = Integer.parseInt( re.readLine() );
         int t = Integer.parseInt( re.readLine() );
-        if( re.readLine() != null)
+        if( t != 0)
             line = new StringTokenizer( re.readLine() );
         HashSet<Integer> cost = new HashSet<>();
         //Process Data and Finding Best solution
