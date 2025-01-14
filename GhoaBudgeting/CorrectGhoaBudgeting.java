@@ -13,7 +13,8 @@ public class CorrectGhoaBudgeting
         //Reading Data
         int bal = Integer.parseInt( re.readLine() );
         int t = Integer.parseInt( re.readLine() );
-        StringTokenizer line = new StringTokenizer( re.readLine() );
+        if( re.readLine() != null)
+            line = new StringTokenizer( re.readLine() );
         HashSet<Integer> cost = new HashSet<>();
         //Process Data and Finding Best solution
         int[] ans = {Integer.MAX_VALUE, Integer.MAX_VALUE}; /*[remaining balance, payments]*/
