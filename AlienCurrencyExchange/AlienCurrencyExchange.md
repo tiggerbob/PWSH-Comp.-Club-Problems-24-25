@@ -1,7 +1,7 @@
 # **Alien Currency Exchange**
 Alien Hesper is trying to exchange $x$ amount of Ghede's currency of Ghoa for Zephyr's currency called Euna. How every upon the reading the rules of this the currency exchange, he gets confused and can not perform it correctly. The rules are as the following: <br>
 1) He must break up the number into individual number positions(Ex: $134$ => $100$ + $30$ + $4$)
-2) The maximum exchange rate is $1$ Ghoa = $7552701074431167$ Euna. This applies to the smallest number position. For the next greatest number position, the new rate is $80$% of the previous exchange rate. 
+2) The maximum exchange rate is $1$ Ghoa = $7552701074431167$ Euna. This applies to the largest number position. For the next greatest number position, the new rate is $80$% of the previous exchange rate. 
 3) The total value is the sum of all the calcluations of each exchange for the each number position.
 4) Each calculated value in the process must be truncated to be an integer (the definition of an integer in middle school math classes)
 5) $\mid$ $x$ $\mid$ Ghoa $=$ $\mid$ $-x$ $\mid$ Ghoa, but $x$ and $-x$ have opposite signs
