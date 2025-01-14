@@ -7,8 +7,8 @@ Second Line will be a single integer $n$ <br>
 The following $n$ lines consists of original parent DNAs <br>
 
 ## Contraints
-$1$ $\leq$ $k$ $\leq$ $850$ <br>
-$1$ $\leq$ $n$ $\leq$ $850$ <br>
+$1$ $\leq$ $k$ $\leq$ $1000$ <br>
+$1$ $\leq$ $n$ $\leq$ $1000$ <br>
 There will always be one mom and one dad with the longest common DNA sequence.<br>
 The amount of A + G Bases will never equal C + T Bases for parent DNAs. <br>
 
