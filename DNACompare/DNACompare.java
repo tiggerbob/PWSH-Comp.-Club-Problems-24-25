@@ -55,6 +55,16 @@ public class DNACompare
 
     public static int[][] longCommonStr(String strA, String strB)
     {
+        //Adding Character to ensure correct counting
+        while(strA.length() < 3)
+        {
+            strA += "*";
+        } 
+        while(strB.length() < 3)
+        {
+            strB += "-";
+        }
+        
         //Declaring Base Counts
         int ct1A = 0;
         int ct1T = 0;
