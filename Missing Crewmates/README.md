@@ -7,7 +7,7 @@ Several crewmates on the ship went on a short trip outside to check for vessel d
 The first line will contain a single integer $N$, denoting the number of crewmates who exited the ship. 
 The next $N$ lines will contain strings of varying length with a list of names of the crewmates who exited the ship.
 
-The first line will contain a single integer $M$, denoting the number of crewmates who returned to the ship. 
+The next line will contain a single integer $M$, denoting the number of crewmates who returned to the ship. 
 The next $M$ lines will contain strings with the names of the crewmates who returned to the ship, excluding the missing crewmate(s).
 
 
@@ -27,7 +27,6 @@ $N-M$ lines each with the names of the missing crewmates, in the original order 
 Alice
 Bob
 Charlie
-
 1
 Charlie
 ```
