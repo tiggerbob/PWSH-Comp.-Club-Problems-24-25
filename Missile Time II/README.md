@@ -11,6 +11,8 @@ The next line is the integer or floating point blast radius of your missile, $M$
 
 ### Constraints
 
+$2 < N < 10^{3}$
+
 $-10^{5} < X < 10^{5}$
 
 $-10^{5} < Y < 10^{5}$
