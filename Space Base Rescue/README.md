@@ -7,7 +7,7 @@ Each room has a certain number of civilians, and you can only visit rooms that a
 
 The first line contains two integers $n$ and $m$, denoting the number of rooms and corridors, respectively.
 The second line contains $n$ integers $c_1,c_2,...,c_n$, where $c_i$ is the number of civilians in room $i$.
-The next $m$ lines each contain two integers $u$ and $v$, indicating a one-way corridor from room $u$ to room $v$.
+The next $m$ lines each contain two integers $u$ and $v$, indicating a corridor from room $u$ to room $v$.
 The last line contains an integer $s$, the starting room.
 
 ### Constraints
