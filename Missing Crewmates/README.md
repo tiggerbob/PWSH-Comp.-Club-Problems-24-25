@@ -13,7 +13,7 @@ The next $M$ lines will contain strings with the names of the crewmates who retu
 
 ### Constraints
 
-$1 \leq N \leq 10^{8}$
+$1 \leq N \leq 10^{5}$
 
 $0 \leq M < N$
 
