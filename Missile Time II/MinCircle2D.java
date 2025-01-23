@@ -123,7 +123,6 @@ public class MinCircle2D {
         MinCircle2D minCircle = minBoundingCircle(points, 0, points.length, null, null);
 
         // Output result
-        System.out.println(minCircle.mRadius);
         if (minCircle.mRadius <= R)
             System.out.println("KABOOM");
         else
