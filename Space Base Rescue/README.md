@@ -14,11 +14,11 @@ The last line contains an integer $s$, the starting room.
 
 $2 \leq n \leq 10^{5}$
 
-$1 \leq m \leq 2*10^{5}$
+$1 \leq m \leq 10^{5}$
 
 $0 \leq c_i \leq 10^{3}$
 
-$1 \leq s \leq 10^{n}$
+$1 \leq s \leq n$
 
 ### Output Format
 
