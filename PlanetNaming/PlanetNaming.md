@@ -18,8 +18,8 @@ For each of the $n$ test cases:
 The name requires the least number of character operations to become a legal name.
 
 ## Constraints
-$1$ $\leq$ $n$ $\leq$ $10000$ <br>
-$1$ $\leq$ $k$ $\leq$ $10000$ <br>
+$1$ $\leq$ $n$ $\leq$ $11000$ <br>
+$1$ $\leq$ $k$ $\leq$ $11000$ <br>
 All given names will be Alphanumeric <br>
 
 ## Sample Input
@@ -41,10 +41,6 @@ There are two names here: <br>
 
 This means ```IfYouAreReadingThisMessageYouShouldKnowYouAreAwesomeAndDeserveLaserGuns``` requires less changes ($2$ $<$ $9$).<br>
 **Fun Fact: You should really tryout some laser guns!!!** 
-
-## Note
-Because of physical storage limitation, both $n$ and $k$ have to be under $10000$. As a result, the time out limit will have to be reduced to around $3$ seconds to maintain the difficulty of the question.
-
 
 **Author and Teacher: Natalie**<br>
 **Student: Michael**<br>
