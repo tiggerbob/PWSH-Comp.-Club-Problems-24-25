@@ -105,9 +105,9 @@ public class CorrectPlanetNaming
             if( !('A' <= name.charAt(0) && name.charAt(0) <= 'Z') && capAdded && (earthCt - overEarthCt) < 0 )
             {
                 tempChange--;
-                if( name.substring(0,5).equalsIgnoreCase("Earth") ) overEarthCt++;
+                if( (5 <= name.length()) && (name.substring(0,5).equalsIgnoreCase("Earth")) ) overEarthCt++;
             //        earth check                                                                        odd rule check                      make sure earth overlap
-            }else if( name.substring(0,5).equalsIgnoreCase("Earth") && capCt % 2 == 1 && numCt % 2 == 0 && (earthCt - overEarthCt) < 0 )
+            }else if( (5 <= name.length()) && name.substring(0,5).equalsIgnoreCase("Earth") && capCt % 2 == 1 && numCt % 2 == 0 && (earthCt - overEarthCt) < 0 )
             {
                 overEarthCt++;
             }
