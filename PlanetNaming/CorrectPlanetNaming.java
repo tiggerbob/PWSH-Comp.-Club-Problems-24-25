@@ -1,12 +1,10 @@
-package PlanetNaming;
-
 import java.util.HashSet;
 import java.io.*;
 
 public class CorrectPlanetNaming 
 {
     public static void main(String[] args) throws IOException
-    { 
+    {
         //Input Class
         BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
 
@@ -34,7 +32,7 @@ public class CorrectPlanetNaming
         {
             /*
              * Order of Logic: 
-             *  - First Letter Captial -> Destorys Earth at the Beginning of the Name
+             *  - First Letter Capital -> Destorys Earth at the Beginning of the Name
              *  - Check Letter of Namer -> Destory an "Earth"
              *  - Have Odd Digits if Odd Capital Letters -> Destory an "Earth"
              *  - Check for "Earth" -> Then replace remaining undestoryed "Earth"
@@ -42,7 +40,7 @@ public class CorrectPlanetNaming
             
             //Getting name
             String name = re.readLine();
-            System.out.println("For the name: " + name);
+            //System.out.println("For the line: " + (i+2) );
 
             //Storing num changes
             int tempChange = 0;
@@ -50,6 +48,10 @@ public class CorrectPlanetNaming
             int overEarthCt = 0;
             //Determine if Capital from Namer's name is Added
             boolean capAdded = false;
+
+            //Keeping Track of Numbers and Captials
+            int capCt = 0;
+            int numCt = 0;
 
             //Checking Namers' Letters
             for(Character letter : namerLetter)
@@ -62,9 +64,7 @@ public class CorrectPlanetNaming
                 }
             }
 
-            //Keeping Track of Numbers and Captials
-            int capCt = 0;
-            int numCt = 0;
+            
             //Keeping Track of Earth Counts
             int earthCt = 0;
 
@@ -77,13 +77,11 @@ public class CorrectPlanetNaming
                 numCt += (48 <= chr && chr <= 57)? 1 : 0;
                 
                 //first letter not uppercase
-                if(j == 0 && (65 > chr || chr > 90) ) 
+                if( j == 0 && (65 > chr || chr > 90) ) 
                 {
                     tempChange++;
-                    //May override Earth becuase can change captial letter from E, assuming Earth is in the beginning
                     if( (name.length() >= 5)  && name.substring(0,5).equalsIgnoreCase("Earth") )
                         overEarthCt++; 
-                    continue;
                 }
 
                 //Updating Earth Count
@@ -98,17 +96,25 @@ public class CorrectPlanetNaming
             if(capCt % 2 == 1 && numCt % 2 == 0)
             {
                 tempChange++;
+                overEarthCt++;
             }
 
-            //Adding Addition Earths if the previous changes have not overrode enought earths
-            tempChange += (earthCt > overEarthCt)? earthCt - overEarthCt : 0;
 
-            //Checking if can replace captial namer letter at beginning, asusming it is Earth
-            if( name.substring(0,5).equalsIgnoreCase("Earth") && capAdded )
+            //Checking if can replace namer letter or number at beginning, asusming it is Earth
+            //    captial check                                       name capital added     make sure earth overlaps                              
+            if( !('A' <= name.charAt(0) && name.charAt(0) <= 'Z') && capAdded && (earthCt - overEarthCt) < 0 )
             {
                 tempChange--;
+                if( name.substring(0,5).equalsIgnoreCase("Earth") ) overEarthCt++;
+            //        earth check                                                                        odd rule check                      make sure earth overlap
+            }else if( name.substring(0,5).equalsIgnoreCase("Earth") && capCt % 2 == 1 && numCt % 2 == 0 && (earthCt - overEarthCt) < 0 )
+            {
+                overEarthCt++;
             }
 
+            //Adding Addition Earths if the previous changes have not overrode enough earths
+            tempChange += (earthCt > overEarthCt)? earthCt - overEarthCt : 0;
+                
             //Updating Change
             if(tempChange < changes)
             {
