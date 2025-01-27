@@ -107,8 +107,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-//        String input = getInput();
-//        Scanner scan = new Scanner(input);
 
         if (args.length == 0) {
             System.out.println("OI BAD. Go run Generate, not this.");
@@ -133,8 +131,6 @@ public class Main {
                 int radiusAsteroid = scan.nextInt();
                 int xAsteroid = scan.nextInt(); // center x coord of asteroid idx
                 int yAsteroid = scan.nextInt(); // center y coord of asteroid idx
-
-                //System.out.println(collision(lengthMissile, xMissile, yMissile, radiusAsteroid, xAsteroid, yAsteroid));
 
                 if (!collision(lengthMissile, xMissile, yMissile, radiusAsteroid, xAsteroid, yAsteroid)) {
                     maxHits--;
@@ -169,22 +165,5 @@ public class Main {
         // corner unsure area
         double dc2 = (lMH-dx)*(lMH-dx) + (lMH-dy)*(lMH-dy); // distance formula with square-corner xy, circle-center xy
         return dc2 <= rA*rA;
-    }
-
-    public static String getInput() {
-        return """
-                2
-                2
-                2
-                1
-                3
-                1
-                1 1 1
-                2
-                0
-                0
-                1
-                5 5 5
-                """;
     }
 }
