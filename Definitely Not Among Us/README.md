@@ -9,7 +9,8 @@ The first line of input consists of an integer $n$ denoting the number of test c
 For each of the $n$ test cases, 
 - int $i$ - number of impostors
 - int $c$ - number of total crewmates, including impostors
-- an unknown number of unique lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent. Each crewmate's name is a unique integer in $[1,c]$.
+- int $l$ - number of confirmations
+- $l$ lines containing two integers, the name of someone on the ship and name of who they are claiming to be able to confirm innocent. Each crewmate's name is a unique integer in $[1,c]$.
 
 ### Output Format
 Output the names of the impostors on separate lines in increasing order.
