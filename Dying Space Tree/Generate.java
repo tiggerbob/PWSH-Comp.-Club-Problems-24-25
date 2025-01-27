@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Generate {
     // technical config
     public static final int FILE_NUM = 4;
-    public static final String INPUT_FILE = String.format("input%d.txt", FILE_NUM);
-    public static final String OUTPUT_FILE = String.format("output%d.txt", FILE_NUM);
+    public static final String INPUT_FILE = String.format("dying_space_tree_testcases/input/input%2d.txt", FILE_NUM);
+    public static final String OUTPUT_FILE = String.format("dying_space_tree_testcases/output/output%2d.txt", FILE_NUM);
     public static boolean PRINT = true;
 
     // testcase config
