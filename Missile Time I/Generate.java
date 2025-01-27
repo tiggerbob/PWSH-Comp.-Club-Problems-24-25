@@ -43,8 +43,8 @@ public class Generate {
         StringBuilder input = new StringBuilder();
 
         // generate ship info
-        int numHours = (int) (Math.random() * (MAX_HOURS - MIN_HOURS) + MIN_HOURS);
-        int maxHits = (int) (Math.random() * (MAX_MAX_HITS - MIN_MAX_HITS) + MIN_MAX_HITS);
+        int numHours = (int) (Math.random() * (MAX_HOURS - MIN_HOURS + 1) + MIN_HOURS);
+        int maxHits = (int) (Math.random() * (MAX_MAX_HITS - MIN_MAX_HITS + 1) + MIN_MAX_HITS);
 
         // append ship info to input
         input.append(numHours).append("\n");
@@ -58,10 +58,10 @@ public class Generate {
 
         for (int n = 0; n < numHours; n++) {
             // generate missile info
-            int length = (int) (Math.random() * (MAX_MISSILE_LENGTH - MIN_MISSILE_LENGTH) + MIN_MISSILE_LENGTH);
-            int x = (int) (Math.random() * (MAX_MISSILE_XY - MIN_MISSILE_XY) + MAX_MISSILE_XY);
-            int y = (int) (Math.random() * (MAX_MISSILE_XY - MIN_MISSILE_XY) + MAX_MISSILE_XY);
-            int numAsteroids = (int) (Math.random() * (MAX_NUM_ASTEROIDS - MIN_NUM_ASTEROIDS) + MAX_NUM_ASTEROIDS);
+            int length = (int) (Math.random() * (MAX_MISSILE_LENGTH - MIN_MISSILE_LENGTH + 1) + MIN_MISSILE_LENGTH);
+            int x = (int) (Math.random() * (MAX_MISSILE_XY - MIN_MISSILE_XY + 1) + MAX_MISSILE_XY);
+            int y = (int) (Math.random() * (MAX_MISSILE_XY - MIN_MISSILE_XY + 1) + MAX_MISSILE_XY);
+            int numAsteroids = (int) (Math.random() * (MAX_NUM_ASTEROIDS - MIN_NUM_ASTEROIDS + 1) + MAX_NUM_ASTEROIDS);
 
             // append missile info to input
             input.append(length).append("\n");
@@ -79,9 +79,9 @@ public class Generate {
 
             // generate asteroid info
             for (int i = 0; i < numAsteroids; i++) {
-                int radius = (int) (Math.random() * (MAX_ASTEROID_RADIUS - MIN_ASTEROID_RADIUS) + MAX_ASTEROID_RADIUS);
-                int xA = (int) (Math.random() * (MAX_ASTEROID_XY - MIN_ASTEROID_XY) + MAX_ASTEROID_XY);
-                int yA = (int) (Math.random() * (MAX_ASTEROID_XY - MIN_ASTEROID_XY) + MAX_ASTEROID_XY);
+                int radius = (int) (Math.random() * (MAX_ASTEROID_RADIUS - MIN_ASTEROID_RADIUS + 1) + MAX_ASTEROID_RADIUS);
+                int xA = (int) (Math.random() * (MAX_ASTEROID_XY - MIN_ASTEROID_XY + 1) + MAX_ASTEROID_XY);
+                int yA = (int) (Math.random() * (MAX_ASTEROID_XY - MIN_ASTEROID_XY + 1) + MAX_ASTEROID_XY);
 
                 // append asteroid info to input
                 input.append(radius).append(" ");
