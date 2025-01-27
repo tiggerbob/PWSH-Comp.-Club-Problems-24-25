@@ -11,6 +11,7 @@ public class Main {
             // testcase input
             int numImpostors = scan.nextInt();
             int numCrewmates = scan.nextInt();
+            int numConfirmations = scan.nextInt();
 
             int[] numConfirmers = new int[numCrewmates]; // number who confirmed crewmate idx
             boolean[] isInnocent = new boolean[numCrewmates]; // is crewmate idx innocent?
@@ -20,7 +21,7 @@ public class Main {
                 confirmations.add(new ArrayList<>());
             }
 
-            while (scan.hasNextInt()) {
+            for (int i = 0; i < numConfirmations; i++) {
                 int confirmer = scan.nextInt()-1;
                 int confirmee = scan.nextInt()-1;
                 confirmations.get(confirmer).add(confirmee);
