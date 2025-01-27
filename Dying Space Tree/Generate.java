@@ -64,7 +64,6 @@ public class Generate {
             if (PRINT) System.out.println();
             input.append("\n");
         }
-
         return input.toString();
     }
 
@@ -82,9 +81,7 @@ public class Generate {
                 idx++;
             }
             System.out.println();
-
         }
-
     }
 
     public static void traverse(int[] tree, int curr) {
@@ -103,21 +100,6 @@ public class Generate {
         // right
         traverse(tree, curr*2+2);
     }
-
-    /*
-
-     i <3 binary trees
-                            0
-                1                      2
-         3           4            5          6
-      7     8     9     10    11    12    13   14
-    15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
-
-
-                            14
-                6                      20
-         3           9            19          21
-     */
 }
 
 import java.io.File;
@@ -127,8 +109,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-//        String input = getInput();
-//        Scanner scan = new Scanner(input);
 
         if (args.length == 0) {
             System.out.println("OI BAD. Go run Generate, not this.");
@@ -166,23 +146,5 @@ public class Main {
         System.out.println("Printed to file: " + Generate.OUTPUT_FILE);
         scan.close();
         write.close();
-    }
-
-    public static String getInput() {
-        return """
-                2
-                5
-                3
-                
-                3
-                1 5
-                0 2 4 7
-                
-                1
-                3
-                
-                3
-                1 5
-                0 2 4 7""";
     }
 }
