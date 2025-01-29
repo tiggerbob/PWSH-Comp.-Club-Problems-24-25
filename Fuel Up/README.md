@@ -11,15 +11,15 @@ Help the PWSH officers spend as little money on fuel as possible and keep the ro
 
 ### Input Format
 
-The first line contains an integer $N$ $(1 \leq N \leq 1000)$ that denotes the number of days the PWSH officers will buy fuel.
+The first line contains an integer $N$ $(1 \leq N \leq 10^6)$ that denotes the number of days the PWSH officers will buy fuel.
 
-The next $n$ lines each denote $p_i$, the price of a gallon of fuel that day, and $a_i$, the number of gallons necessary to keep the rocket operating that day.
+The next $N$ lines each denote $p_i$, the price of a gallon of fuel that day, and $g_i$, the number of gallons necessary to keep the rocket operating that day.
 
 ### Constraints
 
-$1 \leq p_i \leq 1000$
+$0 \leq p_i \leq 10^6$
 
-$1 \leq a_i \leq 10000$
+$1 \leq g_i \leq 10^6$
 
 ### Output Format
 
