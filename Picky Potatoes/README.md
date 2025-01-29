@@ -6,7 +6,7 @@ Their first harvest yields them $N$ potatoes with the satiety of the $i$-th pota
 
 Mark is very hungry, so he will eat one of every potato regardless of its satiety level. 
 
-Mindy, on the other hand, will choose a subset $[a, b]~(1 < a, b < N)$ of the harvest and eat one of every potato type included in that subset. This subset cannot be the entire harvest $(1 \neq a$ and $b \neq N)$. 
+Mindy, on the other hand, will choose a subset $[a, b]~(1 < a \leq b < N)$ of the harvest and eat one of every potato type included in that subset. This subset cannot be the entire harvest $(1 \neq a$ and $b \neq N)$. 
 
 Mark will only be happy if the total satiety level of the potatoes he ate is greater than the total satiety level of the potatoes Mindy ate. Find out if he will be happy by the end of the harvest. 
 
@@ -20,7 +20,7 @@ For each of the $t$ test cases, the first line contains $N$, the number of potat
 
 $2 \leq N \leq 10^5$
 
-$-10^9 \leq s_i \leq 10^9$
+$-10^6 \leq s_i \leq 10^6$
 
 ### Output Format
 
