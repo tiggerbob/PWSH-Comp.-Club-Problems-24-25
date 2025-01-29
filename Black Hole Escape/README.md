@@ -2,8 +2,7 @@
 
 While exploring the cosmos to spread the joys of computer science, the spaceship crew accidentally piloted their ship too close to a massive black hole. 
 
-Each of the crew members proposes a plan of action for the ship to implement to escape the black hole. The ship can take two actions every turn: move forward a single-digit number of light years or refuel. 
-Every light year the ship travels consumes $2$ gallons of fuel, and every refuel refills the ship’s tank by $3$ gallons. For every action the ship takes, the black hole sucks the ship back in by $4$ light years. 
+Each of the crew members proposes a plan of action for the ship to implement to escape the black hole. The ship can take three actions every turn: move forward a single-digit number of light years, refuel, or do nothing (represented by $0$). Every light year the ship travels consumes $2$ gallons of fuel, and every refuel refills the ship’s tank by $3$ gallons. For every action the ship takes, the black hole sucks the ship back in by $4$ light years. 
 
 Which member's plan should the ship follow?
 
