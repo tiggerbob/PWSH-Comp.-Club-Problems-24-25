@@ -2,7 +2,7 @@
 
 Astronauts Mark and Mindy are trapped on Mars with no way to escape. They have since turned to cultivating potatoes as their primary food source. 
 
-Their first harvest yields them $N$ potatoes with each potato being a different type. The satiety of the $i$-th potato is $s_i$. However, due to the mineral-poor Martian soil, some potatoes have rotted, so their satiety can be positive, zero, or negative. 
+Their first harvest yields them $N$ potatoes with the satiety of the $i$-th potato being $s_i$. However, due to the mineral-poor Martian soil, some potatoes have rotted, so their satiety can be positive, zero, or negative. 
 
 Mark is very hungry, so he will eat one of every potato regardless of its satiety level. 
 
