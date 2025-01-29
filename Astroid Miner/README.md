@@ -1,7 +1,7 @@
 # Astroid Miner
 
-Nick wants to be the world's best astroid miner. In order for him
-earn this title he needs to find the most optimal way to gain the 
+Nick wants to be the world's best Astroid Miner. In order for him to
+earn this title, he needs to find the most optimal way to mine the 
 most resources with the least amount of spaceship fuel 
 used per mine. Each astroid has a fixed number of resources and a 
 specific fuel cost required to mine it. Determine the maximum total
