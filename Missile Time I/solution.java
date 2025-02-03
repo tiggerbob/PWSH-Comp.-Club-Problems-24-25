@@ -20,8 +20,6 @@ public class Main {
                 int xAsteroid = scan.nextInt(); // center x coord of asteroid idx
                 int yAsteroid = scan.nextInt(); // center y coord of asteroid idx
 
-                System.out.println(collision(lengthMissile, xMissile, yMissile, radiusAsteroid, xAsteroid, yAsteroid));
-
                 if (!collision(lengthMissile, xMissile, yMissile, radiusAsteroid, xAsteroid, yAsteroid)) {
                     maxHits--;
                     if (maxHits == 0) {
