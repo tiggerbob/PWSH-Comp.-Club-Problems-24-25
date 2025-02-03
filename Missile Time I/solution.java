@@ -7,7 +7,7 @@ public class Main {
         int maxHits = scan.nextInt();
         int hours = scan.nextInt();
 
-        for (int h = 0; h < hours; h++) {
+        hourloop: for (int h = 0; h < hours; h++) {
             // hour input
             int lengthMissile = scan.nextInt();
             int xMissile = scan.nextInt();
@@ -26,7 +26,7 @@ public class Main {
                     maxHits--;
                     if (maxHits == 0) {
                         System.out.println(h+1); // solution 1
-                        break;
+                        break hourloop;
                     }
                 }
             }
