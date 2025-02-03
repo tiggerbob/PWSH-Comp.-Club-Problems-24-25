@@ -46,9 +46,11 @@ cats back home always want to know whats going on up here...
 For example, if daily orders consisted of 2 Moncit Moon Pies, which each cost 8 Piddles, then you would need to tally 16 Earth Dollars as the daily total, 
 then return the total revenue collected that day.
 
-**Input**
+## Input Format
 The first line contains _N_, the number of orders in a day.
 Each _N_ line will first hold the cost _A_, and then the currency paid in, token _B_, than finally the item, _C_.
+
+## Contraints
 
 ### Sample Input
 ```
