@@ -2,6 +2,18 @@ import java.util.*;
 
 public class GalacticHeist {
 
+    // Define a Planet class to store position and attribute
+    static class Planet {
+        int position;
+        String attribute;
+
+        // Constructor to initialize position and attribute
+        Planet(int position, String attribute) {
+            this.position = position;
+            this.attribute = attribute;
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -9,7 +21,7 @@ public class GalacticHeist {
         int n = sc.nextInt();
         sc.nextLine();  // Consume the newline after reading the number of planets
         
-        List<int[]> planets = new ArrayList<>();
+        List<Planet> planets = new ArrayList<>();
         
         // Reading planets' position and attribute
         for (int i = 0; i < n; i++) {
@@ -18,7 +30,7 @@ public class GalacticHeist {
             sc.nextLine(); // Consume the newline after reading the attribute
             
             // Store planet position and attribute
-            planets.add(new int[]{position, attribute});
+            planets.add(new Planet(position, attribute));
         }
         
         // Read target attribute, start position, and maximum travel distance
@@ -28,9 +40,9 @@ public class GalacticHeist {
         
         // Step 1: Filter planets that match the target criterion
         List<Integer> filteredPlanets = new ArrayList<>();
-        for (int[] planet : planets) {
-            if (planet[1].equals(targetCriterion)) {
-                filteredPlanets.add(planet[0]);
+        for (Planet planet : planets) {
+            if (planet.attribute.equals(targetCriterion)) {
+                filteredPlanets.add(planet.position);
             }
         }
         
