@@ -52,19 +52,19 @@ Each _N_ line will first hold the cost _A_, and then the currency paid in, token
 
 ## Contraints
 
-### Sample Input
+## Sample Input
 ```
 3
 1.5 Piddle Gurala oxo puffs
 5 Piddle Assorted Maetti "meat"
 1.5 Piddle Gurala oxo puffs
 ```
-### Sample Output
+## Sample Output
 ```
 64
 ```
 
-### Sample Case Explanation:
+## Sample Case Explaination
 
 As the order total for the day was only 8 Piddles (1.5 + 5 + 1.5) and a piddle is 8 Earth Dollars, 8 * 8 = 64.
 
