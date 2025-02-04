@@ -19,9 +19,13 @@ The final line will contian integer D representing the maximum total distance Gr
 
 ## Constraints:
 ( 1 ≤ n ≤ 10^5 )
+
 ( − 10^9 ≤ X ≤ 10^9 )
+
 ( 1 ≤ | A | ≤ 10 )
+
 ( − 10^9 ≤ P ≤ 10^9 )
+
 ( 1 ≤ D ≤ 10^ 12 )
 
 ## Output Format:
