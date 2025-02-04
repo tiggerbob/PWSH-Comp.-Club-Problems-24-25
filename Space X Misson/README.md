@@ -1,12 +1,12 @@
 # Space X Misson
 
-Elon is trying to land his falcon 9 back on earth. In order for it to 
-land safely back on the launch site, it uses it's innovative thrusts to 
-maniupulate its dropping speed. It uses upward thrusts to resist 
-the drop and downward thrust to accelrate the drop. It also can 
+Elon is trying to land his Falcon 9 back on Earth. In order for it to 
+land safely back on the launch site, it uses its innovative thrusts to 
+manipulate its dropping speed. It uses upward thrusts to resist 
+the drop and downward thrusts to accelerate the drop. It also can 
 have zero thrust as a neutral state for landing. In order to know that
-the rocket has landed safely the the total sum of the thrust 
-must equal zero. Determine if the given array of thrusts ensure a 
+the rocket has landed safely, the the total sum of the thrusts 
+must equal zero. Determine if the given array of thrusts ensures a 
 safe landing. 
 
 
