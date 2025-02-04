@@ -13,10 +13,15 @@ Your job is to create a program that tallies the cost of items ordered at the dr
 For example, if daily orders consisted of 2 Moncit Moon Pies, which each cost 8 Piddles, then you would need to tally 16 Earth Dollars as the daily total, then return the total revenue collected that day.
 
 ## Input Format
-The first line contains _N_, the number of orders in a day.
-Each _N_ line will first hold the cost _A_, and then the currency paid in, token _B_, than finally the item, _C_.
+The first line contains _N_, the number of orders in a day.<br>
+Each _N_ line will first hold the cost of an item (_P_).<br>
+The cost will be then followed by the currency paid in (_C_). C will always be the capitilized singular form of currency. (Example. Piddle) <br>
+Finally, the currency will be followed by the item ordered.
 
 ## Contraints
+$0$ $\leq$ $N$ $\leq$ $10^{3}$ <br>
+$0$ $\leq$ $P$ $\leq$ $10^{4}$ <br>
+$0$ $\leq$ $C$ $\leq$ $10^{1}$ (length of token)<br>
 
 ## Sample Input
 ```
