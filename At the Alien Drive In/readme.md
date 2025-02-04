@@ -36,12 +36,3 @@ As the order total for the day was only 8 Piddles (1.5 + 5 + 1.5) and a piddle i
 
 
 
-### Note: 
-(currency converstion is scattered in text)
-
-moobies - $17 - listed
-100 kryps = $1 - listed
-piddle = $8 - given
-Snoodies = $2 - listed
-Flux = 22 - listed
-
