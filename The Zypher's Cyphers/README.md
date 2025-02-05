@@ -14,11 +14,8 @@ Each of the following $n$ lines contains a string $s$ consisting of only the cha
 
 ## Output Format
 
-For each test case, output: <br>
-* The total number of valid messages.
-* The total number of invalid messages. <br>
-
-Each result should be printed on a new line, with the count of valid messages first, followed by the count of invalid messages.
+For each test case, output the total number of valid messages and the total number of invalid messages. <br>
+Each result should be printed on a new line, with the count of valid messages first, followed by the count of invalid messages. <br>
 
 ## Constraints
 
