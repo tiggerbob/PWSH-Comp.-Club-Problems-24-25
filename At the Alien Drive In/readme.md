@@ -15,7 +15,7 @@ For example, if daily orders consisted of 2 Moncit Moon Pies, which each cost 8 
 ## Input Format
 The first line contains _N_, the number of orders in a day.<br>
 Each _N_ line will first hold the cost of an item _P_).<br>
-The cost will be then followed by the currency paid in (_C_). C will always be the capitalized singular form of currency. (Example. Piddle) <br>
+The cost will be then followed by the currency paid in (_C_). C will always be the capitalized singular form of currency. (Example: Piddle) <br>
 Finally, the currency will be followed by the item ordered.
 
 ## Contraints
