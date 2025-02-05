@@ -1,16 +1,15 @@
-# Astroid Miner
+# Asteroid Miner
 
 Nick wants to become the world's best asteroid miner. To earn this title, he must mine the maximum amount of resources while using the least amount of spaceship fuel per mining operation. Each asteroid contains a fixed amount of resources and requires a specific amount of fuel to mine. Given a limited fuel supply, determine the maximum total resources Nick can collect without exceeding the available fuel.
 
 
 ## Input Format:
 The first line will contain two integers $n$ and $F$ $(1 \leq n \leq
-10^5, 1 \leq F \leq 10^9)$, representing the number astroids and
-number of total fuel available.
+10^5, 1 \leq F \leq 10^9)$, representing the number of asteroids and the amount of total fuel available.
 
 The next n lines will contain two integers $r[i]$ and $f[i]$ 
 $(1 \leq r[i], f[i] \leq 10^6)$, representing the resource value and
-fuel cost of the i-th astroid.
+fuel cost of the i-th asteroid.
 
 ## Output Format:
 The output will be a single integer which is the maximum resources
