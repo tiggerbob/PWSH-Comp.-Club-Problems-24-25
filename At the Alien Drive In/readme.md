@@ -14,14 +14,17 @@ For example, if daily orders consisted of 2 Moncit Moon Pies, which each cost 8 
 
 ## Input Format
 The first line contains _N_, the number of orders in a day.<br>
-Each _N_ line will first hold the cost of an item (_P_).<br>
-The cost will be then followed by the currency paid in (_C_). C will always be the capitilized singular form of currency. (Example. Piddle) <br>
+Each _N_ line will first hold the cost of an item _P_).<br>
+The cost will be then followed by the currency paid in (_C_). C will always be the capitalized singular form of currency. (Example. Piddle) <br>
 Finally, the currency will be followed by the item ordered.
 
 ## Contraints
 $0$ $\leq$ $N$ $\leq$ $10^{3}$ <br>
 $0$ $\leq$ $P$ $\leq$ $10^{4}$ <br>
 $0$ $\leq$ $C$ $\leq$ $10^{1}$ (length of token)<br>
+
+## Output Format
+A single double denoting the total revenue in Earth Dollars.
 
 ## Sample Input
 ```
@@ -37,7 +40,7 @@ $0$ $\leq$ $C$ $\leq$ $10^{1}$ (length of token)<br>
 
 ## Sample Case Explaination
 
-As the order total for the day was only 8 Piddles (1.5 + 5 + 1.5) and a piddle is 8 Earth Dollars, 8 * 8 = 64.
+As the order total for the day was only 8 Piddles (1.5 + 5 + 1.5) and a Piddle is 8 Earth Dollars, 8 * 8 = 64.
 
 
 
