@@ -1,5 +1,5 @@
 # **Alien Currency Exchange**
-An Alien Bank currently holds a $b$ balance of of Euna. However, the guards are drunk and are letting criminals through. The bank gets robbed $n$ times. Each robbery attempt has a group of $k$ people, at $t$ time. Each criminal robs $10$% of the balance. An additional $5$% is robbed if it is night time ($8$: $00$ PM - $8$: $00$ AM, inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each criminal attempt gets, then output how much money remains in the bank.
+An Alien Bank currently holds a $b$ balance of of Euna. However, the guards are drunk and are letting criminals through. The bank gets robbed $n$ times. Each robbery attempt has a group of $k$ people, at $t$ time. Each criminal robs $10$% of the balance. An additional $5$% is robbed if it is night time (8:00 PM - 8:00 AM, inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each criminal attempt gets, then output how much money remains in the bank.
 
 ## Input Format
 The first line is the $b$ balance of the bank. <br>
