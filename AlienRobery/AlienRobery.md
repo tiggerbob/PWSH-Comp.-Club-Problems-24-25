@@ -1,10 +1,10 @@
 # **Alien Currency Exchange**
-An Alien Bank holds currenct an $b$ balance of of Euna. However, the guards are drunk are letting criminals through. The Bank gets robbed $n$ times. Each robbery attempt has a group of $k$ people, with at $t$ time. Each criminal robes $10$% of the balance. An additional $5$% is robbed if it is night time ($8$: $00$ PM - $8$: $00$ AM Inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each criminal attempet gets, then output how much the bank remains.
+An Alien Bank currently holds a $b$ balance of of Euna. However, the guards are drunk and are letting criminals through. The bank gets robbed $n$ times. Each robbery attempt has a group of $k$ people, at $t$ time. Each criminal robs $10$% of the balance. An additional $5$% is robbed if it is night time ($8$: $00$ PM - $8$: $00$ AM, inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each criminal attempt gets, then output how much money remains in the bank.
 
 ## Input Format
-The first line is the $b$ balance of the bank <br>
-The second line is $n$ robbery times <br>
-The following $n$ lines contains two integer: $k$ people and $t$ time robbed <br>
+The first line is the $b$ balance of the bank. <br>
+The second line is $n$ robbery times. <br>
+The following $n$ lines contains two integers: $k$ people and $t$ time robbed. <br>
 
 ## Contraints
 $0$ $\leq$ $b$ $\leq$ $10^{100}$ <br>
@@ -13,8 +13,8 @@ $0$ $\leq$ $k$ $\leq$ $11$ <br>
 $t$ will not be written in military time <br>
 
 ## Output
-$n$ lines of the balanced robbed from the bank rounded to $3$ decimals <br>
-Then, the final bank balance rounded to $3$ decimals<br>
+$n$ lines of the balanced robbed from the bank rounded to $3$ decimals. <br>
+Then, the final bank balance rounded to $3$ decimals.<br>
 
 ## Sample Input #0
 ```
