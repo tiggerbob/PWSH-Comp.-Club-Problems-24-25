@@ -4,8 +4,8 @@ Alien Astra Calytrix lives in a planet called Ghede with a special currency call
 ## Input Format
 The first line contains one integer: $b$ <br>
 The second line contains one integer: $n$ <br>
-The following $n$ lines contains $n$ doubles, representing all the individual balances the children demand <br>
-The individual children demands will be given in sorted increasing order<br>
+The following $n$ lines contains $n$ doubles, representing all the individual balances the children demand. <br>
+The individual children demands will be given in sorted increasing order. <br>
 
 ## Contraints
 $0$ $\leq$ $b$ $\leq$ $10^{9}$ <br>
@@ -13,7 +13,7 @@ $0$ $\leq$ $n$ $\leq$ $7$ $\times$ $10^{6}$ <br>
 $0$ $\leq$ $individual$ $children$ $demands$ $\leq$ $10^{8}$ <br>
 
 ## Output
-Two Integers: First one being the money left, second one being the number of payments
+Two integers: First one being the money left, second one being the number of payments.
 
 ## Sample Input #0
 ```
