@@ -1,7 +1,7 @@
 # Drwlehlool
 
 
-Humanity has finally made contact with aliens in a distant galaxy. Unfortunately, the aliens do not know any English. A cipher was discovered that could encode a message in English into the alien’s language.
+Humanity has finally made contact with aliens in a distant galaxy. Unfortunately, the aliens do not know any English. A cipher was discovered that could encode a message in English into the aliens' language.
 
 Take the message “helloworld” for example. 
 * The first letter “h” would be the first letter of the encoded message. 
@@ -13,14 +13,13 @@ Using this cipher, “helloworld” becomes “drwlehlool”. **Decrypt** the al
 
 ### Input Format
 
-The first line contains $N$, the number of messages to be decrypted. 
+The first line contains $N$ $(1 \leq N \leq 1000)$, the number of messages to be decrypted. 
 
 The next $N$ lines each have a message to be decrypted. The entire line is considered to be the message. 
 
 ### Constraints
 
-The message will not only consist of numbers. 
-(NOT DONE)
+The message will only contain alphanumeric characters and will be at most $50$ characters long.
 
 ### Output Format
 
