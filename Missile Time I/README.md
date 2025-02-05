@@ -1,6 +1,6 @@
 # Missile Time
 
-Your spaceship, the CoolNameHere, has made a wrong turn and is now flying through an asteroid field! Because the CoolNameHere has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of asteroids before it is destroyed and all its passengers die. Fortunately, you have the budget to shoot up to 1 missile per hour and your second in command's, Gleebork’s, planning expertise. 
+Your spaceship, the Odysseus, has made a wrong turn and is now flying through an asteroid field! Because the Odysseus has earlier been severely damaged in the Great Galactic Battle, it can only be hit by a certain number of asteroids before it is destroyed and all its passengers die. Fortunately, you have the budget to shoot up to 1 missile per hour and your second in command's, Gleebork’s, planning expertise. 
 
 Using their psychic powers, Gleebork has accurately predicted the locations of every circular meteoroid you will encounter at each hour and has drafted locations to shoot your ship’s square missiles at, using a 2D grid. If a missile overlaps or touches an asteroid, it will be instantly evaporated and pose no threat to your ship. However, because you are aware Gleebork is much more skilled at predicting asteroid locations than planning missile targets, you must determine whether Gleebork’s plan will actually succeed.
 
