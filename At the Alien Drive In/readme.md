@@ -34,7 +34,7 @@ A single double denoting the total revenue in Earth Dollars.
 ```
 ## Sample Output
 ```
-64
+64.0
 ```
 
 ## Sample Case Explaination
