@@ -1,35 +1,34 @@
 # **Alien Currency Exchange**
-An Alien Bank currently holds a $b$ balance of of Euna. However, the guards are drunk and are letting criminals through. The bank gets robbed $n$ times. Each robbery attempt has a group of $k$ people, at $t$ time. Each criminal robs $10$% of the balance. An additional $5$% is robbed if it is night time (8:00 PM - 8:00 AM, inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each criminal attempt gets, then output how much money remains in the bank.
+An Alien Bank currently holds a balance of $b$ Euna. However, the guards are drunk and are letting criminals through! The bank gets robbed $n$ times. Each robbery attempt involves $k$ robbers and is at time $t$. Each criminal robs $10$% of the bank's balance. An additional $5$% is robbed if it is nighttime ($8:00$ PM - $8:00$ AM, inclusive). However, there is one catch to this alien world's timing: if the hour is $12$, then the minute has to be $0$. Calculate how much each robbing attempt gets, and then output how much money remains in the bank.
 
 ## Input Format
-The first line is the $b$ balance of the bank. <br>
-The second line is $n$ robbery times. <br>
-The following $n$ lines contains two integers: $k$ people and $t$ time robbed. <br>
+The first line contains $b$, the balance of the bank. <br>
+The next line contains $n$, the number of robbery attempts. <br>
+The following $n$ lines each contain two integers: $k$, the number of robbers, and $t$, the time the bank was robbed. <br>
 
-## Contraints
+## Constraints
 $0$ $\leq$ $b$ $\leq$ $10^{100}$ <br>
 $0$ $\leq$ $n$ $\leq$ $100$ <br>
 $0$ $\leq$ $k$ $\leq$ $11$ <br>
-$t$ will not be written in military time <br>
+$t$ will not be written in military time. <br>
 
-## Output
-$n$ lines of the balanced robbed from the bank rounded to $3$ decimals. <br>
-Then, the final bank balance rounded to $3$ decimals.<br>
+## Output Format
+For each robbery attempt, output two lines. The first line will have the amount robbed from the bank rounded to $3$ decimals, and the next line contains the final bank balance rounded to $3$ decimals. 
 
-## Sample Input #0
+## Sample Input 
 ```
 1000
 1
 1 7:30 PM
 ```
 
-## Sample Output #0
+## Sample Output 
 ```
 100.000
 900.000
 ```
 
-## Sample #0 Explaination
-In this case, the bank has $1000$ Euna left over with 1 robbery. The robbery only has $1$ person, and the time is not between $8$: $00$ PM - $8$: $00$ AM, meaning the percentage robbed is $1$ * $10$% without the additional $5$% robbed at night, leaving a total of $10$% of being robbed. The robbery group robs $100$ Euna, leaving the bank with $900$ Euna in the Alien Bank.
+## Sample Case Explanation
+In this case, the bank has $1000$ Euna left over with $1$ robbery. The robbery only has $1$ person, and the time is not between $8:00$ PM - $8:00$ AM. Therefore, the additional $5$% when robbed at night is not included, resulting in the total percentage robbed being $1 \cdot 10$% $= 10$%. The robbery group then robs $100$ Euna, leaving the bank with $900$ Euna.
 
 **Author: Michael Li**
