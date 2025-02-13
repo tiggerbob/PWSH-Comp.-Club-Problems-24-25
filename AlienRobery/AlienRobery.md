@@ -13,7 +13,7 @@ $0$ $\leq$ $k$ $\leq$ $11$ <br>
 $t$ will not be written in military time. <br>
 
 ## Output Format
-For each robbery attempt, output two lines. The first line will have the amount robbed from the bank rounded to $3$ decimals, and the next line contains the final bank balance rounded to $3$ decimals. 
+For each robbery attempt, output the amount robbed from the bank rounded to $3$ decimals. After all robbery attempts are done, the next line contains the final bank balance rounded to $3$ decimals. 
 
 ## Sample Input 
 ```
