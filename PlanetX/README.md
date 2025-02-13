@@ -39,7 +39,7 @@ glorbgleebglorb
 
 ## Sample Output Explanation
 
-In all strings, we simply look for the occurences of "gleeb" and "glorb". <br>
+In all strings, we simply look for the occurrences of "gleeb" and "glorb". <br>
 In test case $1$, gleeb appears $3$ times, and glorb appears twice. Thus, the output is $3~2$. <br>
 In test case $2$, gleeb appears $1$ time, and glorb appears once as well. Thus, the output is $1\text{ }1$. <br>
 In test case $3$, gleeb appears $1$ time, and glorb appears once as well. Thus, the output is $1\text{ }1$. <br>
