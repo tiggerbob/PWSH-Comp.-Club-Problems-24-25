@@ -34,7 +34,7 @@ glorbgleebglorb
 1 1
 1 1
 1 0
-2 2
+1 2
 ```
 
 ## Sample Output Explanation
@@ -44,7 +44,7 @@ In test case $1$, gleeb appears $3$ times, and glorb appears twice. Thus, the ou
 In test case $2$, gleeb appears $1$ time, and glorb appears once as well. Thus, the output is $1\text{ }1$. <br>
 In test case $3$, gleeb appears $1$ time, and glorb appears once as well. Thus, the output is $1\text{ }1$. <br>
 In test case $4$, gleeb appears $1$ time, and glorb never appears. Thus, the output is $1\text{ }0$. <br>
-In test case $5$, gleeb appears $2$ times, and glorb appears twice as well. Thus, the output is $2\text{ }2$.
+In test case $5$, gleeb appears $1$ time, and glorb appears twice. Thus, the output is $1\text{ }2$.
 
 
 **Author: Ramy Hijazi**
