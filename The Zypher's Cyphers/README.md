@@ -35,7 +35,7 @@ There is no need to handle empty strings. <br>
 
 ## Sample output
 ```
-3 2
+2 3
 ```
 
 ## Sample output explanation
