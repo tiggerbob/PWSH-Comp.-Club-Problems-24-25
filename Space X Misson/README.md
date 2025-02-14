@@ -12,7 +12,7 @@ safe landing.
 ## Input Format:
 The first line will contain a single integer $N$ $(0 \leq N \leq 10^5)$, representing the number of thrust values.
 
-The second line will contain $t$ integers $t_1, t_2,~\ldots, t_n$ $(-10^6 \leq t \leq 10^6)$, representing the thrust values in sequence. 
+The second line will contain $N$ integers $t_1, t_2,~\ldots, t_n$ $(-10^6 \leq t \leq 10^6)$, representing the thrust values in sequence. 
 
 ## Output Format:
 The output will be a single String representing if the landing was either 
