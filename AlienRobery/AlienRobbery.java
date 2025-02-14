@@ -1,55 +1,71 @@
-package AlienRobery;
-
+import java.math.BigInteger;
 import java.io.*;
 
-public class AlienRobbery 
+
+public class AlienCurrencyExchange 
 {
     public static void main(String[] args) throws IOException
-    {
-        BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
+    {   
+        //Timing
+        long startTime = System.nanoTime();
         
-        //Taking in Balance
-        double bal = Double.parseDouble( re.readLine() );
+        //Starting Nums
+        long curEx = 7552701074431167L;
+        
+        //Getting Ghoa value
+        BufferedReader re = new BufferedReader( new FileReader("AlienCurrencyExchange\\Input.txt") );
+        PrintWriter output = new PrintWriter("AlienCurrencyExchange\\Output.txt");
+        long x = Long.valueOf( re.readLine() );
+        int sign = (x < 0)? -1 : 1;
+        x = Math.abs(x);
+        
 
-        //Taking in Robbery
-        int t = Integer.parseInt( re.readLine() );
-        
-        for(int i = 0; i < t; i++)
+        //Getting Highest Degreee
+        long temp = x;
+        int deg = 0;
+        while( temp > 0 )
         {
-            //Taking Line Input
-            double robPercent = 0.0;
-            String[] arr = re.readLine().split("[\\s:]");
-            /* [Num People, Hour, Minute, PM or AM] */
-
-            //Processing Input
-            robPercent += Integer.parseInt(arr[0]) * 0.1;
-            /*
-             * Times
-             * t <= 8:00 AM -> 480 Min
-             * t >= 8:00 PM -> 1200 Min
-             */
-            int timeMin;
-            if(Integer.parseInt(arr[1]) != 12)
-                timeMin = Integer.parseInt(arr[1]) * 60 + Integer.parseInt(arr[2]) + ((arr[3].equals("PM"))? 720 : 0);
-            else
-                timeMin = (arr[3].equals("PM"))? 720: 0;
-            if( timeMin <= 480 || timeMin >= 1200 ) robPercent += 0.05;
-
-            //If over 1, reduce to one -> can not have negative balance
-            robPercent = (robPercent > 1)? 1 : robPercent;
-
-            //Calcating Rob
-            double balRob = bal * robPercent;
-            bal -= balRob;
-
-            //Outputing Amount Robbed
-            System.out.printf("%.3f\n", balRob);
+            deg++;
+            temp /= 10;
         }
 
-        //Outputing Remaining Balanced
-        System.out.printf("%.3f", bal);
-        
-        //Closing IO Files
+        //Calculating Rate
+        BigInteger exRate = new BigInteger( String.valueOf(curEx) );
+        BigInteger sum = new BigInteger("0");
+        while(x > 0)
+        {
+            //Calculating the individual number position
+            long tenPow = (int) Math.pow(10,deg-1);
+            BigInteger placeVal = new BigInteger( String.valueOf(x / tenPow * tenPow) );
+
+            //Calculating exchange at current place value
+            BigInteger placeCurEx = exRate.multiply(placeVal);
+
+            //Adding to next currency exchange
+            sum = sum.add(placeCurEx);
+
+            //recalculating exchange rate
+            exRate = exRate.multiply( new BigInteger("4") );
+            exRate = exRate.divide( new BigInteger("5") );
+            
+            //reducing x and highest degree
+            x -= placeVal.longValue();
+            deg--;
+        }
+
+        //Outputing Result
+        if(sign < 0)
+            output.print( "-" + sum.toString() );
+        else
+            output.print( sum.toString() );
+
+        //Timing
+        long endTime = System.nanoTime();
+        System.out.println("Time is: " + (endTime-startTime) /(double) 1000000000 + " seconds");
+
+        //Closing and Saving IO Files
+        output.close();
         re.close();
     }
+    
 }
