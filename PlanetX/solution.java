@@ -18,17 +18,21 @@ public class LifeformCount {
             int glorbCount = 0;
             
             // Count "gleeb"
-            int index = 0;
-            while ((index = s.indexOf("gleeb", index)) != -1) {
-                gleebCount++;
-                index += 5; // Move past the current "gleeb"
+            for(int j = 0; j < s.length() - 4; j++)
+            {
+                if(s.substring(j, j+5).equals("gleeb"))
+                {
+                    gleebCount++;
+                }
             }
             
             // Count "glorb"
-            index = 0;
-            while ((index = s.indexOf("glorb", index)) != -1) {
-                glorbCount++;
-                index += 5; // Move past the current "glorb"
+            for(int j = 0; j < s.length() - 4; j++)
+            {
+                if(s.substring(j, j+5).equals("glorb"))
+                {
+                    glorbCount++;
+                }
             }
             
             // Output the result for the current test case
