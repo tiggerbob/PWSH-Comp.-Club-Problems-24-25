@@ -1,79 +1,106 @@
 import java.util.Scanner;
 
-public class Solution {
-    private static final char[] VOWELS = {'a', 'e', 'i', 'o', 'u'};
-         
+public class Solution4 {
+    private static final String VOWELS = "aeiou";
+    
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
+        String input = sc.nextLine().trim();
+        int L = input.length();
         
-        // array for character counts (a-z)
-        int[] charCount = new int[26];
+        int[] freq = new int[26];
         for (char c : input.toCharArray()) {
-            charCount[c - 'a']++;
+            freq[c - 'a']++;
         }
         
-        int palindromeCount = 0;
+        int V = 0;
+        int P_v = 0;
+        for (char v : VOWELS.toCharArray()) {
+            int cnt = freq[v - 'a'];
+            V += cnt;
+            P_v += cnt / 2;
+        }
         
-        // first use vowels 
-        for (char vowel : VOWELS) {
-            int vowelIndex = vowel - 'a';
-            while (charCount[vowelIndex] > 0) {
-                if (canFormPalindrome(charCount)) {
-                    formPalindrome(charCount);
-                    palindromeCount++;
-                } else {
-                    break;
+        int P_total = 0, P_cons = 0;
+        for (int i = 0; i < 26; i++) {
+            P_total += freq[i] / 2;
+            char c = (char) (i + 'a');
+            if (VOWELS.indexOf(c) == -1) {  // consonant
+                P_cons += freq[i] / 2;
+            }
+        }
+        
+        int ans = 0;
+        
+        int maxPossible = Math.min(V, L / 3);
+        
+        for (int x = maxPossible; x >= 2; x--) {
+            if (V < x || V > 3 * x) continue; 
+            boolean possible = false;
+            for (int a = 0; a <= x; a++) { 
+                for (int b = 0; b <= x - a; b++) { 
+                    int c = x - a - b; 
+                    if (a + 2 * b + 3 * c == V) {
+                        if (a <= P_cons && (b + c) <= P_v && (3 * x) <= L) {
+                            possible = true;
+                            break;
+                        }
+                    }
                 }
+                if (possible) break;
+            }
+            if (possible) {
+                ans = x;
+                break;
             }
         }
         
-        //use remaining characters
-        while (canFormPalindrome(charCount)) {
-            formPalindrome(charCount);
-            palindromeCount++;
-        }
-        
-        System.out.print(palindromeCount);
+        if (ans == 0 && V > 0) {
+            int cost;
+            if (V % 2 == 1) {
+                cost = Math.max(V, 3);
+                boolean canForm = true;
+                if (V == 1) {
+                    if (P_cons < 1) canForm = false;
+                } else {
+                    boolean hasPair = false;
+                    for (char v : VOWELS.toCharArray()) {
+                        if (freq[v - 'a'] >= 2) { 
+                            hasPair = true; 
+                            break; 
+                        }
+                    }
+                    if (!hasPair) canForm = false;
+                }
+                if (cost <= L && canForm) ans = 1;
+            } else { //
 
-    }
-    
-    private static boolean canFormPalindrome(int[] charCount) {
-        // need at least one character with count >= 2 for ends
-        // and at least one additional character (for middle)
-        boolean hasPairs = false;
-        int totalChars = 0;
-        
-        for (int count : charCount) {
-            if (count >= 2) {
-                hasPairs = true;
-            }
-            totalChars += count;
-        }
-        
-        return hasPairs && totalChars >= 3;
-    }
-    
-    private static void formPalindrome(int[] charCount) {
-        // find first character with count >= 2 for the ends
-        int endCharIndex = -1;
-        for (int i = 0; i < charCount.length; i++) {
-            if (charCount[i] >= 2) {
-                endCharIndex = i;
-                break;
+            	int vowelTypeCount = 0;
+                for (char v : VOWELS.toCharArray()) {
+                    if (freq[v - 'a'] > 0) {
+                        vowelTypeCount++;
+                    }
+                }
+
+                if (vowelTypeCount == 1) {
+                    cost = V;
+                    if (cost < 3) {
+                        cost = 3;
+                    }
+                } else {
+                    cost = V + 1;
+                }
+                boolean hasPair = false;
+                for (char v : VOWELS.toCharArray()) {
+                    if (freq[v - 'a'] >= 2) { 
+                        hasPair = true; 
+                        break; 
+                    }
+                }
+                if (cost <= L && hasPair) ans = 1;
             }
         }
         
-        // use two of the end character
-        charCount[endCharIndex] -= 2;
-        
-        // use one character for the middle
-        for (int i = 0; i < charCount.length; i++) {
-            if (i != endCharIndex && charCount[i] > 0) {
-                charCount[i]--;
-                break;
-            }
-        }
+        System.out.print(ans);
     }
 }
