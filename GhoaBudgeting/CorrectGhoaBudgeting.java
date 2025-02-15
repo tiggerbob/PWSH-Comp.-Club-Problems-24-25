@@ -5,7 +5,7 @@ import java.util.*;
 
 public class CorrectGhoaBudgeting 
 {
-    public static void main(String[] args) //throws IOException for only reading from file
+    public static void main(String[] args) throws IOException
     {
         //IO Files
         BufferedReader re = new BufferedReader( new InputStreamReader(System.in) );
