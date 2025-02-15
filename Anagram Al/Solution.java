@@ -7,7 +7,7 @@ public class Solution4 {
     	Scanner sc = new Scanner(System.in);
     	
     	int iter = sc.nextInt();
-    	sc.nextLine();
+    	if(sc.hasNextLine()) sc.nextLine();
     	String word1 = "";
     	String word2 = ""; 
     	boolean anagram;
