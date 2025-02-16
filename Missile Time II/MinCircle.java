@@ -4,7 +4,6 @@ import java.util.*;
 public class MinCircle {
     // Helper inner classes for organization
     static class Circle {
-
         public final Point c;   // center
         public final double r;  // radius
 
