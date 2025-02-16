@@ -4,7 +4,6 @@ import java.util.*;
 public class MinCircle {
     // Helper inner classes for organization
     static class Circle {
-        private static final double MULTIPLICATIVE_EPSILON = 1 + 1e-14;
 
         public final Point c;   // center
         public final double r;  // radius
@@ -15,7 +14,7 @@ public class MinCircle {
         }
 
         public boolean contains(Point p) {
-            return c.distance(p) <= r * MULTIPLICATIVE_EPSILON;
+            return c.distance(p) <= r;
         }
     }
 
